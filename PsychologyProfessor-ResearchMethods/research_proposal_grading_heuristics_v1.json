@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "rubricId": "psychology-research-methods-paper-v1",
+    "title": "Professor-Style Psychology Research Methods Paper Grading Heuristics",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a psychology professor.",
+    "scope": "Grades a student research proposal or methods paper in APA format."
+  },
+  "assignment": {
+    "topic": "Design and propose a psychological research study with literature review, methodology, and analysis plan",
+    "promptToStudent": "Write a formal research proposal in APA format for a psychological study. Your proposal must include a literature review establishing context and a research gap, a clearly stated hypothesis, a detailed methodology section (participants, materials, procedure, design), a proposed statistical analysis plan, ethical considerations, and a discussion of limitations. The study may be in any area of psychology (cognitive, social, developmental, clinical, etc.).",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": ["Peer-reviewed psychology journals are required.", "APA 7th edition format is mandatory.", "Do not use popular media or self-help books as primary evidence."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 2000, "max": 2500 },
+      "hardLimits": { "min": 1500, "max": 3000 },
+      "penalties": [
+        { "condition": "wordCount < 1500", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 3000", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1500 <= wordCount < 2000", "action": "deductPercent", "value": 5 },
+        { "condition": "2500 < wordCount <= 3000", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["APA 7th edition format", "12-pt Times New Roman", "double-spaced", "running head", "page numbers"],
+      "acceptableCitationStyles": ["APA 7th edition"],
+      "citationMinimum": { "peerReviewedSources": { "min": 8 }, "notes": ["Minimum 8 peer-reviewed sources in the literature review."] }
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "APA Title Page", "required": true, "mustInclude": ["title", "student name", "institutional affiliation", "course", "instructor", "date"], "minWords": 0 },
+      { "id": "abstract", "name": "Abstract", "required": true, "minWords": 150, "maxWords": 250, "mustInclude": ["background", "objective", "method overview", "expected outcomes", "keywords"] },
+      { "id": "introduction", "name": "Introduction & Literature Review", "required": true, "minWords": 600, "mustInclude": ["background and context", "review of 8+ peer-reviewed sources", "identification of research gap", "research question and hypothesis"] },
+      { "id": "method_participants", "name": "Method: Participants", "required": true, "minWords": 150, "mustInclude": ["sample size and justification", "demographic characteristics", "recruitment method", "inclusion/exclusion criteria"] },
+      { "id": "method_materials", "name": "Method: Materials/Measures", "required": true, "minWords": 150, "mustInclude": ["instruments or measures described", "reliability and validity information", "scoring procedures"] },
+      { "id": "method_procedure", "name": "Method: Procedure", "required": true, "minWords": 200, "mustInclude": ["step-by-step procedure", "experimental conditions (if applicable)", "control measures", "timeline"] },
+      { "id": "method_design", "name": "Method: Design & Analysis Plan", "required": true, "minWords": 150, "mustInclude": ["research design identified", "independent and dependent variables", "proposed statistical tests with justification", "significance level"] },
+      { "id": "ethics", "name": "Ethical Considerations", "required": true, "minWords": 150, "mustInclude": ["informed consent", "IRB considerations", "debriefing procedure", "risk mitigation"] },
+      { "id": "limitations", "name": "Limitations & Future Directions", "required": true, "minWords": 150, "mustInclude": ["at least 2 methodological limitations", "threats to validity", "suggestions for future research"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 100, "mustInclude": ["restate hypothesis", "expected contribution", "significance of the proposed study"] },
+      { "id": "references", "name": "References", "required": true, "minWords": 0, "mustInclude": ["all cited sources in APA 7th edition format", "minimum 8 peer-reviewed sources"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_lit_review", "name": "Literature Review & Research Gap", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c2_hypothesis", "name": "Hypothesis Clarity & Testability", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c3_methodology", "name": "Methodology Quality (Participants, Materials, Procedure)", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_design_analysis", "name": "Research Design & Statistical Analysis Plan", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c5_ethics", "name": "Ethical Considerations", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c6_limitations", "name": "Limitations & Future Directions", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c7_writing_apa", "name": "Writing Quality & APA Compliance", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "rubricId": "science-report-climate-change-v1",
+    "title": "Professor-Style Science Report Grading Heuristics (Climate Change)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a science professor.",
+    "scope": "Grades a single student research report on climate change.",
+    "license": "Rubric text is original."
+  },
+  "assignment": {
+    "topic": "Scientific analysis of climate change: causes, mechanisms, impacts, and mitigation strategies",
+    "promptToStudent": "Write a formal research report that argues a clear thesis about the causes, mechanisms, or impacts of climate change. Support your thesis with peer-reviewed scientific evidence, data analysis, and critical evaluation of current mitigation strategies.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": ["Peer-reviewed journals are required.", "IPCC reports and government scientific agencies are acceptable.", "Do not use blogs, opinion pieces, or non-scientific media as primary evidence."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "page numbers", "clear headings"],
+      "acceptableCitationStyles": ["APA", "CSE"],
+      "citationMinimum": { "peerReviewedSources": { "min": 5 }, "notes": ["At least 5 peer-reviewed scientific sources required."] }
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "report title"], "minWords": 0 },
+      { "id": "abstract", "name": "Abstract", "required": true, "minWords": 100, "maxWords": 200, "mustInclude": ["research question", "methods/approach", "key findings", "conclusion"] },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["scientific context", "explicit thesis statement", "scope of the report"] },
+      { "id": "scientific_background", "name": "Scientific Background", "required": true, "minWords": 300, "mustInclude": ["greenhouse effect mechanism", "key greenhouse gases and sources", "historical climate data trends"] },
+      { "id": "evidence_analysis", "name": "Evidence & Data Analysis", "required": true, "minWords": 400, "mustInclude": ["at least 2 data sets or studies cited", "interpretation of data trends", "connection to thesis"] },
+      { "id": "impacts", "name": "Impacts Assessment", "required": true, "minWords": 250, "mustInclude": ["ecological impacts", "human/societal impacts", "regional variation in effects"] },
+      { "id": "mitigation", "name": "Mitigation Strategies", "required": true, "minWords": 200, "mustInclude": ["at least 2 mitigation approaches", "evaluation of feasibility or effectiveness", "policy or technological dimension"] },
+      { "id": "counterargument", "name": "Counterargument / Scientific Debate", "required": true, "minWords": 150, "mustInclude": ["at least one skeptical or alternative scientific claim", "evidence-based response"] },
+      { "id": "personal_reflection", "name": "Personal Reflection", "required": true, "minWords": 150, "mustInclude": ["what changed in your understanding", "connection to future scientific or policy challenges"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 150, "mustInclude": ["restate thesis", "synthesize findings", "implications for future research"] },
+      { "id": "references", "name": "References", "required": true, "minWords": 0, "mustInclude": ["all cited sources", "consistent APA or CSE format"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_scientific_background", "name": "Scientific Background Accuracy", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c3_evidence_analysis", "name": "Evidence & Data Analysis Depth", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_impacts", "name": "Impacts Assessment", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c5_mitigation", "name": "Mitigation Strategy Evaluation", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c6_counterargument", "name": "Scientific Debate & Counterargument", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c7_reflection", "name": "Personal Reflection", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c8_writing_quality", "name": "Writing Quality & Scientific Communication", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

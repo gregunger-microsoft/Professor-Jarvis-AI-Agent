@@ -1,0 +1,63 @@
+STUDENT LEGAL MEMO SUBMISSION (AUTHORITATIVE TEXT)
+MEMORANDUM
+
+To: Professor Reynolds
+From: Daniel Brooks
+Date: March 13, 2026
+Re: First Amendment Analysis — University Social Media Policy Restricting Student Speech
+
+Question Presented
+Under the First Amendment to the United States Constitution, may a public university enforce a social media policy that prohibits students from posting content that "undermines the university's mission or values" when a student is disciplined for posting criticism of the university's financial decisions on a personal social media account?
+
+Brief Answer
+Probably not. The policy is likely unconstitutional as applied because it functions as a content-based restriction on protected speech that would not survive strict scrutiny. The policy's vague language — "undermines the university's mission or values" — is overbroad and fails to provide students with clear notice of what speech is prohibited. Under established First Amendment precedent, a public university cannot discipline a student for engaging in protected political speech on a personal social media account absent a showing that the speech caused substantial disruption.
+
+Statement of Facts
+State University, a public institution, adopted a Student Social Media Conduct Policy in 2024 that prohibits students from posting content on any social media platform that "undermines the university's mission, values, or reputation." The policy applies to all enrolled students and covers posts made on personal accounts outside of university-controlled platforms.
+
+Daniel Kim, a junior at State University, posted a series of messages on his personal Twitter account criticizing the university's decision to spend $50 million on a new athletics complex while cutting funding for the campus mental health center. Kim's posts included statements such as "State University cares more about football than students' mental health" and "Our administration's priorities are morally bankrupt." The posts were shared widely and generated local media coverage.
+
+The Dean of Students initiated disciplinary proceedings against Kim under the Social Media Conduct Policy, citing the posts as content that "undermines the university's mission and reputation." Kim was placed on academic probation for one semester. Kim now challenges the disciplinary action as a violation of his First Amendment rights.
+
+Discussion
+
+Issue
+The central issue is whether a public university's social media policy that prohibits speech "undermining the university's mission or values" violates the First Amendment when applied to discipline a student for posting political criticism of university financial decisions on a personal social media account.
+
+Two sub-issues arise: (1) whether the policy is a content-based restriction subject to strict scrutiny, and (2) whether the policy is unconstitutionally vague and overbroad.
+
+Rule
+The First Amendment provides that "Congress shall make no law ... abridging the freedom of speech." U.S. Const. amend. I. This prohibition applies to public universities through the Fourteenth Amendment's Due Process Clause. See Healy v. James, 408 U.S. 169, 180 (1972) (holding that "the precedents of this Court leave no room for the view that ... First Amendment protections should apply with less force on college campuses than in the community at large").
+
+Content-based restrictions on speech are presumptively unconstitutional and subject to strict scrutiny, meaning the government must show the restriction is narrowly tailored to serve a compelling government interest. Reed v. Town of Gilbert, 576 U.S. 155, 163 (2015). The Supreme Court has consistently held that the government may not restrict speech merely because it finds the content disagreeable or offensive. Texas v. Johnson, 491 U.S. 397, 414 (1989).
+
+In the university context, the Court has recognized that public universities have a special interest in maintaining an educational environment, but this interest does not override students' First Amendment rights absent a showing of substantial disruption. Tinker v. Des Moines Independent Community School District, 393 U.S. 503, 509 (1969) (holding that students do not "shed their constitutional rights to freedom of speech or expression at the schoolhouse gate" and that schools may restrict speech only when it "materially and substantially interfere[s] with the requirements of appropriate discipline"). Although Tinker addressed K-12 students, courts have applied its principles to public university speech. See DeJohn v. Temple University, 537 F.3d 301, 314 (3d Cir. 2008) (striking down a university sexual harassment policy as overbroad under the First Amendment).
+
+Regarding vagueness and overbreadth, the Supreme Court has held that a law regulating speech is void for vagueness if it "fails to provide a person of ordinary intelligence fair notice of what is prohibited." Grayned v. City of Rockford, 408 U.S. 104, 108 (1972). A statute is overbroad if it "prohibits a substantial amount of protected speech" relative to its legitimate sweep. United States v. Stevens, 559 U.S. 460, 473 (2010).
+
+Application
+Applying these doctrines to Kim's case, the State University policy is vulnerable on both strict scrutiny and vagueness/overbreadth grounds.
+
+First, the policy is content-based because it targets speech based on its message — specifically, whether the content "undermines the university's mission or values." A restriction that requires officials to examine the content of speech to determine whether it violates the policy is by definition content-based under Reed v. Town of Gilbert. The determination of whether Kim's criticism "undermines" the university's mission requires evaluating the viewpoint expressed — criticism of financial priorities is punished while praise would presumably be acceptable. This is precisely the kind of viewpoint discrimination the First Amendment prohibits. See Rosenberger v. Rector and Visitors of University of Virginia, 515 U.S. 819, 829 (1995) (holding that viewpoint discrimination is "an egregious form of content discrimination").
+
+As a content-based restriction, strict scrutiny applies. The university would need to demonstrate a compelling interest and narrow tailoring. While universities have a legitimate interest in maintaining their educational mission, this interest does not constitute a compelling justification for silencing student criticism of institutional decisions. Kim's posts addressed a matter of public concern — university spending priorities — which lies at the core of First Amendment protection. See Connick v. Myers, 461 U.S. 138, 145 (1983) (holding that speech on matters of public concern receives heightened First Amendment protection). The policy is not narrowly tailored because it sweeps in a vast range of protected speech, from political criticism to academic disagreement to social commentary.
+
+Second, the policy is unconstitutionally vague and overbroad. The phrase "undermines the university's mission or values" provides no objective standard by which a student of ordinary intelligence could predict what speech is prohibited. What constitutes the university's "values"? Does disagreeing with a curriculum change undermine the mission? Does criticizing a hiring decision? The vagueness invites arbitrary enforcement — exactly the concern articulated in Grayned v. City of Rockford. The policy's overbreadth is demonstrated by the range of protected speech it could reach: political commentary, institutional criticism, academic debate, and personal expression — all of which could be characterized as "undermining" the university depending on the perspective of the enforcing administrator. This closely parallels the policy struck down in DeJohn v. Temple University, where the Third Circuit found that a university policy restricting speech that created a "hostile environment" was overbroad because it could chill constitutionally protected expression.
+
+The university might argue, relying on Tinker, that Kim's posts caused substantial disruption because they generated negative media coverage and public criticism. However, the fact that speech provokes disagreement or public attention is not equivalent to material disruption of university operations. The Tinker standard requires evidence that the speech "materially and substantially interfere[s] with ... appropriate discipline in the operation of the school." 393 U.S. at 509. Media coverage and public debate are natural consequences of political speech on matters of public concern, not evidence of disruption.
+
+Conclusion
+The State University social media policy is likely unconstitutional as applied to Kim. The policy functions as a content-based and viewpoint-discriminatory restriction that would not survive strict scrutiny. It is also unconstitutionally vague and overbroad, failing to provide students with clear notice of what speech is prohibited and sweeping in a substantial amount of protected expression. Kim's criticism of university financial decisions constitutes core political speech on a matter of public concern, and his disciplinary action is unlikely to withstand First Amendment challenge. A court would likely find in Kim's favor and potentially strike down or enjoin enforcement of the policy.
+
+Table of Authorities
+Connick v. Myers, 461 U.S. 138 (1983).
+DeJohn v. Temple University, 537 F.3d 301 (3d Cir. 2008).
+Grayned v. City of Rockford, 408 U.S. 104 (1972).
+Healy v. James, 408 U.S. 169 (1972).
+Reed v. Town of Gilbert, 576 U.S. 155 (2015).
+Rosenberger v. Rector and Visitors of University of Virginia, 515 U.S. 819 (1995).
+Texas v. Johnson, 491 U.S. 397 (1989).
+Tinker v. Des Moines Independent Community School District, 393 U.S. 503 (1969).
+United States v. Stevens, 559 U.S. 460 (2010).
+U.S. Const. amend. I.
+U.S. Const. amend. XIV.

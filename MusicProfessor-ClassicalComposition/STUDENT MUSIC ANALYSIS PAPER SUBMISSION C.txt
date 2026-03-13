@@ -1,0 +1,47 @@
+STUDENT MUSIC ANALYSIS PAPER SUBMISSION (AUTHORITATIVE TEXT)
+Title: Drama in Structure: Sonata Form as Expressive Vehicle in Mozart and Beethoven
+Student Name: Rachel Nguyen
+Course: MUS 310 — Music Theory and Analysis
+Instructor: Professor Fischer
+Date: March 13, 2026
+
+Introduction
+Sonata form, the dominant structural paradigm of the Classical period, is often described in purely architectural terms: exposition, development, recapitulation. Yet this formal framework is far more than a template—it is a vehicle for dramatic narrative, tension, and resolution. This paper argues that sonata form functions as an expressive tool whose dramatic power depends on how composers manipulate its conventions, particularly through harmonic tension and thematic transformation. This argument will be illustrated through comparative analysis of two first movements: Mozart's Symphony No. 40 in G minor, K. 550 (1788), and Beethoven's Symphony No. 5 in C minor, Op. 67 (1808).
+
+Historical and Stylistic Context
+Wolfgang Amadeus Mozart composed his Symphony No. 40 in the summer of 1788, one of his final three symphonies written in rapid succession. The choice of G minor—a key Mozart rarely used for symphonic works—gives the piece an unusually dark and agitated character that scholars such as Charles Rosen have described as "demonic" in its energy (Rosen, 1997). The symphony belongs to the late Classical period, when the conventions of sonata form were well established but increasingly subject to individual compositional inflection.
+
+Ludwig van Beethoven composed his Symphony No. 5 two decades later, at a moment when the Classical style was giving way to Romantic expressiveness. First performed in 1808, the Fifth Symphony has become one of the most iconic works in the Western canon, famous for its opening four-note motif and its dramatic trajectory from C minor struggle to C major triumph. Beethoven's approach to sonata form is more radical than Mozart's: he stretches formal boundaries, extends developmental techniques, and uses rhythmic and motivic transformation as primary structural forces.
+
+Formal Analysis
+The first movement of Mozart's Symphony No. 40 (Molto allegro) follows a textbook sonata-allegro form. The exposition (mm. 1–100) presents the first theme in G minor, characterized by a sighing, stepwise melody over a restless accompaniment in the violas. The transition modulates to the relative major (B-flat major) for the second theme (m. 44), which introduces a more lyrical, descending character with chromatic inflections. The exposition closes with a cadential passage that firmly establishes B-flat major. The development section (mm. 101–164) fragments the first theme and pushes it through a series of rapid modulations, including passages in F-sharp minor and E minor, creating intense harmonic instability. The recapitulation (mm. 165–260) returns to G minor but notably alters the transition so that the second theme now appears in G minor rather than the expected G major, maintaining the work's dark character through the end.
+
+Beethoven's Symphony No. 5, first movement (Allegro con brio), also employs sonata-allegro form but with radical compression and motivic intensity. The exposition (mm. 1–124) opens with the famous four-note motif (short-short-short-long) in C minor, which functions as a rhythmic and melodic cell generating virtually all subsequent material. The second theme (m. 59) arrives in E-flat major, accompanied by a horn call that references the opening motif, ensuring thematic unity across the tonal contrast. The development (mm. 125–248) is extensive and relentless, subjecting the opening motif to fragmentation, sequence, and dynamic extremes. A dramatic fermata on a diminished seventh chord (m. 268) creates a moment of suspended tension before the recapitulation. The recapitulation (mm. 269–374) includes an extraordinary oboe cadenza (m. 268) that interrupts the rhythmic momentum—a highly unusual gesture that Beethoven uses to heighten the drama of the return.
+
+Harmonic Analysis
+Mozart's harmonic language in the G minor Symphony is sophisticated but operates largely within Classical conventions. The exposition establishes the standard i–III (G minor to B-flat major) tonal relationship. The development section intensifies through sequential modulations and chromatic voice leading, reaching remote keys before a dominant pedal prepares the return. The decision to keep the second theme in G minor during the recapitulation is harmonically significant: it denies the conventional resolution to the parallel major, reinforcing the work's prevailing tension and darkness.
+
+Beethoven's harmonic approach is more goal-directed and architecturally ambitious. The movement's tonal plan traces a large-scale trajectory from C minor to C major (which is fully realized only in the finale). Within the first movement, the harmonic tension centers on the opposition between C minor and E-flat major, with the development section pushing into more distant tonal areas. The use of diminished seventh chords as pivots (particularly the dramatic fermata in m. 268) creates moments of maximum ambiguity that Beethoven exploits for dramatic effect. The coda (mm. 374–502) is unusually long—almost a second development—reinforcing C minor with a finality that sets up the multi-movement trajectory toward eventual triumph.
+
+Expressive and Dramatic Analysis
+Mozart's first movement achieves its expressive power through a combination of melodic beauty and harmonic pathos. The first theme's sighing figure conveys urgency and anxiety, while the chromatic inflections of the second theme add emotional complexity without disrupting formal clarity. The refusal to resolve to G major in the recapitulation gives the movement a sense of unresolved longing—the drama lies in what is denied.
+
+Beethoven's movement generates drama through rhythmic insistence and motivic obsession. The four-note motif is not merely a theme but an argumentative force: it drives the music forward with an almost physical energy. The extended development and massive coda create a sense of struggle that transcends formal convention. Where Mozart's drama is internal and psychological, Beethoven's is external and heroic—the music enacts a conflict between the individual will and the forces arrayed against it.
+
+Comparative Element
+The comparison between these two movements reveals how the same formal structure—sonata-allegro form—can serve vastly different expressive purposes depending on how a composer handles its conventions. Mozart works within the form's expectations, using subtle harmonic choices (the G minor recapitulation of the second theme) to create emotional depth. Beethoven challenges the form's boundaries, extending the development and coda to create a narrative of struggle and resistance. Both approaches demonstrate that sonata form is not a rigid container but a flexible dramatic medium whose expressive potential depends entirely on the composer's creative decisions.
+
+Personal Reflection
+Analyzing these two movements with attention to their formal and harmonic details has transformed my listening experience. I now hear the recapitulation not as a simple return but as a dramatic event whose significance depends on what happened in the development. The comparison between Mozart and Beethoven also revealed how personal compositional voice operates within shared formal conventions—a lesson that applies to any creative discipline, including the electronic music I compose in my own practice.
+
+Conclusion
+Sonata form, far from being a mechanical formula, functions as an expressive vehicle whose dramatic power is realized through harmonic tension, thematic transformation, and the composer's manipulation of formal expectations. Mozart's Symphony No. 40 achieves its dark intensity through subtle harmonic denial, while Beethoven's Symphony No. 5 generates heroic drama through motivic obsession and formal expansion. Together, these works demonstrate that the art of classical composition lies not in following formal rules but in knowing how to bend them for expressive purpose.
+
+Works Cited
+Rosen, Charles. The Classical Style: Haydn, Mozart, Beethoven. Expanded ed. W. W. Norton, 1997.
+Hepokoski, James, and Warren Darcy. Elements of Sonata Theory. Oxford University Press, 2006.
+Kinderman, William. Beethoven. 2nd ed. Oxford University Press, 2009.
+
+Scores Referenced:
+Mozart, Wolfgang Amadeus. Symphony No. 40 in G minor, K. 550. Barenreiter Urtext edition.
+Beethoven, Ludwig van. Symphony No. 5 in C minor, Op. 67. Breitkopf & Hartel edition.

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "rubricId": "math-calculus-proofs-v1",
+    "title": "Professor-Style Calculus Proof Grading Heuristics",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a calculus professor.",
+    "scope": "Grades student calculus proof assignments covering convergence, differentiation, and integration proofs."
+  },
+  "assignment": {
+    "topic": "Formal proofs in single-variable and multivariable calculus",
+    "promptToStudent": "Complete the following proof-based assignment. For each problem, provide a rigorous mathematical proof with clear statements, justified steps, and proper notation. You must demonstrate understanding of the underlying theorems and definitions.",
+    "requiredProblems": [
+      { "id": "p1", "description": "Prove that the sequence a_n = 1/n converges to 0 using the epsilon-N definition of a limit." },
+      { "id": "p2", "description": "Prove the derivative of f(x) = x^n using the limit definition of the derivative (power rule from first principles)." },
+      { "id": "p3", "description": "Prove the Fundamental Theorem of Calculus, Part 1: If f is continuous on [a,b] and F(x) = integral from a to x of f(t)dt, then F'(x) = f(x)." },
+      { "id": "p4", "description": "Prove that a continuous function on a closed interval [a,b] is bounded (Extreme Value Theorem — boundedness component)." }
+    ]
+  },
+  "submissionRequirements": {
+    "formatting": {
+      "required": ["Clear problem labeling (P1, P2, P3, P4)", "Readable mathematical notation (LaTeX, handwritten scan, or typed)", "Logical structure: Statement → Proof → QED/conclusion"],
+      "notes": ["Handwritten submissions must be legible.", "Each proof must be clearly separated."]
+    },
+    "requiredSections": [
+      { "id": "problem_1", "name": "Proof: Sequence Convergence (epsilon-N)", "required": true },
+      { "id": "problem_2", "name": "Proof: Power Rule from First Principles", "required": true },
+      { "id": "problem_3", "name": "Proof: Fundamental Theorem of Calculus Part 1", "required": true },
+      { "id": "problem_4", "name": "Proof: Boundedness of Continuous Functions on [a,b]", "required": true }
+    ],
+    "inappropriateOrIncorrectRules": {
+      "hardFailConditions": [
+        { "id": "plagiarism", "description": "Copied proofs from textbooks or online without attribution.", "action": "overallGradePercent=0" },
+        { "id": "circular_reasoning", "description": "Proof assumes the conclusion to prove the conclusion.", "action": "problem score = 0 for that problem" }
+      ],
+      "majorPenaltyConditions": [
+        { "id": "missing_problem", "description": "A required proof is entirely missing.", "action": "deductPercent", "value": 20, "stackable": true },
+        { "id": "invalid_proof", "description": "Proof contains a fundamental logical error that invalidates the conclusion.", "action": "cap problem score at 2/5" }
+      ],
+      "minorPenaltyConditions": [
+        { "id": "notation_errors", "description": "Minor notation inconsistencies that do not affect validity.", "action": "deductPercent", "value": 2 },
+        { "id": "missing_qed", "description": "Proof lacks a clear conclusion/QED marker.", "action": "deductPercent", "value": 1 }
+      ]
+    }
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_logical_validity", "name": "Logical Validity of Proofs", "weightPercent": 35, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "All proofs are logically valid with no gaps; each step follows from previous steps or stated axioms." },
+          { "score": 4, "descriptor": "Proofs are mostly valid; one minor logical gap that does not invalidate the conclusion." },
+          { "score": 3, "descriptor": "Proofs have some valid reasoning but contain 1–2 significant gaps or unjustified steps." },
+          { "score": 2, "descriptor": "Multiple logical errors; some proofs are invalid." },
+          { "score": 1, "descriptor": "Most proofs contain fundamental errors or circular reasoning." },
+          { "score": 0, "descriptor": "No valid proofs submitted." }
+        ]
+      },
+      { "id": "c2_theorem_application", "name": "Correct Application of Theorems & Definitions", "weightPercent": 20, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Theorems and definitions applied correctly; conditions verified before use." },
+          { "score": 4, "descriptor": "Mostly correct; one instance of incomplete condition verification." },
+          { "score": 3, "descriptor": "Some correct applications; missing prerequisites or misapplied theorem." },
+          { "score": 2, "descriptor": "Frequent misapplication of key theorems." },
+          { "score": 1, "descriptor": "Demonstrates fundamental misunderstanding of relevant theorems." },
+          { "score": 0, "descriptor": "No theorems applied or all applications incorrect." }
+        ]
+      },
+      { "id": "c3_proof_structure", "name": "Proof Structure & Organization", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Clear Statement → Proof → Conclusion for each problem; easy to follow." },
+          { "score": 4, "descriptor": "Good structure; one proof slightly disorganized." },
+          { "score": 3, "descriptor": "Structure present but proofs are hard to follow in places." },
+          { "score": 2, "descriptor": "Poorly organized; difficult to distinguish proof steps." },
+          { "score": 1, "descriptor": "No discernible structure." },
+          { "score": 0, "descriptor": "Missing or unreadable." }
+        ]
+      },
+      { "id": "c4_notation_precision", "name": "Mathematical Notation & Precision", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Precise, consistent notation; quantifiers, variables, and symbols used correctly." },
+          { "score": 4, "descriptor": "Mostly precise; minor notational inconsistencies." },
+          { "score": 3, "descriptor": "Notation understandable but imprecise in several places." },
+          { "score": 2, "descriptor": "Notation errors that create ambiguity." },
+          { "score": 1, "descriptor": "Notation largely incorrect or inconsistent." },
+          { "score": 0, "descriptor": "No recognizable mathematical notation." }
+        ]
+      },
+      { "id": "c5_completeness", "name": "Problem Completeness", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "All 4 problems attempted with substantive proof effort." },
+          { "score": 4, "descriptor": "All 4 attempted; one proof is incomplete but shows progress." },
+          { "score": 3, "descriptor": "3 of 4 problems attempted with reasonable effort." },
+          { "score": 2, "descriptor": "2 of 4 problems attempted." },
+          { "score": 1, "descriptor": "1 of 4 problems attempted." },
+          { "score": 0, "descriptor": "No problems attempted." }
+        ]
+      }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

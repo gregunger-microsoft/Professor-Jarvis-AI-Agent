@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "rubricId": "business-case-study-analysis-v1",
+    "title": "Professor-Style Business Case Study Analysis Grading Heuristics",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a business professor.",
+    "scope": "Grades a student case study analysis for an undergraduate or MBA business course."
+  },
+  "assignment": {
+    "topic": "Strategic analysis of a real-world business case using established analytical frameworks",
+    "promptToStudent": "Write a formal case study analysis of a real-world business scenario. Identify the central strategic problem or decision faced by the company. Apply at least two analytical frameworks (e.g., SWOT, Porter's Five Forces, PESTLE, Value Chain Analysis, BCG Matrix) to diagnose the situation. Develop specific, actionable recommendations supported by your analysis, and address implementation risks. Use financial data and industry metrics where available.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": ["The assigned case study is the primary source.", "Industry reports, academic journals, and financial data are encouraged.", "Do not use generic business advice blogs as primary analytical sources."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "clear headings", "tables or figures for data where applicable"],
+      "acceptableCitationStyles": ["APA", "Harvard"]
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "case title and company name"], "minWords": 0 },
+      { "id": "executive_summary", "name": "Executive Summary", "required": true, "minWords": 100, "maxWords": 200, "mustInclude": ["key problem", "recommended action", "expected outcome"] },
+      { "id": "problem_identification", "name": "Problem Identification", "required": true, "minWords": 200, "mustInclude": ["central strategic problem or decision", "context and urgency", "stakeholders affected"] },
+      { "id": "situational_analysis", "name": "Situational Analysis", "required": true, "minWords": 400, "mustInclude": ["at least 2 frameworks applied (SWOT, Porter's, PESTLE, etc.)", "use of case data and financial metrics", "industry and competitive context"] },
+      { "id": "alternatives", "name": "Strategic Alternatives", "required": true, "minWords": 250, "mustInclude": ["at least 3 strategic options identified", "pros and cons of each", "evaluation criteria"] },
+      { "id": "recommendations", "name": "Recommendations", "required": true, "minWords": 250, "mustInclude": ["specific recommended course of action", "justification tied to analysis", "implementation steps with timeline"] },
+      { "id": "risk_assessment", "name": "Risk Assessment", "required": true, "minWords": 150, "mustInclude": ["at least 2 implementation risks identified", "mitigation strategies", "contingency considerations"] },
+      { "id": "personal_reflection", "name": "Personal Reflection / Key Takeaways", "required": true, "minWords": 100, "mustInclude": ["what you learned from the case", "connection to broader business or management principles"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 100, "mustInclude": ["restate recommendation", "summarize key rationale", "final insight"] },
+      { "id": "references", "name": "References", "required": true, "minWords": 0, "mustInclude": ["case study citation", "all secondary sources"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_problem_identification", "name": "Problem Identification & Framing", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c2_situational_analysis", "name": "Situational Analysis & Framework Application", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c3_alternatives", "name": "Strategic Alternatives Quality", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c4_recommendations", "name": "Recommendation Quality & Justification", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c5_risk_assessment", "name": "Risk Assessment", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c6_reflection", "name": "Personal Reflection / Key Takeaways", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Professional Communication", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

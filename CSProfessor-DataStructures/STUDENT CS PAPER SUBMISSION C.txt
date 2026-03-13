@@ -1,0 +1,79 @@
+STUDENT CS PAPER SUBMISSION (AUTHORITATIVE TEXT)
+Title: Choosing the Right Data Structure: A Comparative Analysis for Search-Intensive Applications
+Student Name: David Park
+Course: CS 301 — Data Structures and Algorithms
+Instructor: Professor Johnson
+Date: March 13, 2026
+
+Introduction
+Selecting the appropriate data structure is one of the most consequential decisions in software engineering. The performance characteristics of a data structure—its time complexity for key operations and its memory footprint—directly determine the scalability and responsiveness of the systems built upon it. This paper argues that for search-intensive applications, such as an in-memory product catalog serving real-time queries, a balanced binary search tree (specifically, a Red-Black tree) offers the best combination of guaranteed worst-case performance, ordered traversal, and practical memory usage compared to hash tables and sorted arrays. This argument will be developed through a detailed comparison of these three data structures across their key operations, complexity profiles, and trade-offs.
+
+Data Structure Descriptions
+A sorted array stores elements in contiguous memory in a defined order. Key operations include binary search for lookup (O(log n)), insertion requiring element shifting (O(n)), and deletion also requiring shifting (O(n)). Sorted arrays provide excellent cache locality due to contiguous memory layout and support efficient range queries through binary search on boundaries.
+
+A hash table stores key-value pairs using a hash function to compute an index into an array of buckets. Key operations include insert, search, and delete, all with average-case time complexity of O(1). However, in the worst case (e.g., all keys hash to the same bucket), these operations degrade to O(n). Hash tables require a well-designed hash function and a strategy for handling collisions (chaining or open addressing). They do not maintain element ordering.
+
+A Red-Black tree is a self-balancing binary search tree where each node contains a color bit (red or black) used to enforce balance during insertions and deletions. Key operations—search, insert, and delete—all have O(log n) time complexity in both average and worst cases. Red-Black trees maintain elements in sorted order, enabling efficient in-order traversal and range queries. The balancing guarantees ensure that the tree height never exceeds 2 * log2(n+1), preventing degenerate linear structures.
+
+Complexity Analysis
+The following table summarizes the time complexity for key operations:
+
+| Operation | Sorted Array | Hash Table (Avg) | Hash Table (Worst) | Red-Black Tree |
+|-----------|-------------|-------------------|---------------------|----------------|
+| Search    | O(log n)    | O(1)              | O(n)                | O(log n)       |
+| Insert    | O(n)        | O(1)              | O(n)                | O(log n)       |
+| Delete    | O(n)        | O(1)              | O(n)                | O(log n)       |
+| Range Query| O(log n + k)| O(n)             | O(n)                | O(log n + k)   |
+| Min/Max   | O(1)        | O(n)              | O(n)                | O(log n)       |
+
+Space complexity for all three structures is O(n), though hash tables may require additional space for empty buckets (load factor dependent), and Red-Black trees require per-node overhead for pointers and the color bit.
+
+Code Examples
+
+Example 1: Red-Black Tree Search (Pseudocode)
+```
+function search(node, key):
+    if node is null:
+        return NOT_FOUND
+    if key == node.key:
+        return node.value
+    else if key < node.key:
+        return search(node.left, key)
+    else:
+        return search(node.right, key)
+```
+This recursive search follows the BST property: keys less than the current node go left, keys greater go right. Because the Red-Black tree is balanced, this operation is guaranteed O(log n).
+
+Example 2: Hash Table Insert with Chaining (Pseudocode)
+```
+function insert(table, key, value):
+    index = hash(key) % table.size
+    bucket = table[index]
+    for entry in bucket:
+        if entry.key == key:
+            entry.value = value  // update existing
+            return
+    bucket.append(new Entry(key, value))
+    table.count += 1
+    if table.count / table.size > LOAD_FACTOR_THRESHOLD:
+        resize(table)
+```
+This insert computes a hash index and appends to a chained bucket. The resize check maintains performance by keeping the load factor below a threshold, preserving average O(1) operations.
+
+Trade-off Analysis
+For a search-intensive application like an in-memory product catalog, the key requirements are: fast search, support for range queries (e.g., "show all products between $10 and $50"), and reasonable insert/delete performance for catalog updates.
+
+Hash tables excel at exact-key lookups (O(1) average) but fail at range queries because elements are not ordered. Finding all products in a price range requires scanning the entire table (O(n)). Sorted arrays support efficient range queries (O(log n + k)) and search (O(log n)), but their O(n) insertion cost makes them impractical for catalogs that are frequently updated.
+
+Red-Black trees provide O(log n) for all single-element operations and O(log n + k) for range queries, where k is the number of results. While individual lookups are slower than hash tables on average, the guaranteed worst-case O(log n) provides predictability under adversarial conditions. For a product catalog requiring both search and range queries with moderate update frequency, the Red-Black tree offers the best balance of capabilities. As Cormen et al. note, "Red-black trees are one of many search-tree schemes that are balanced to guarantee that basic dynamic-set operations take O(lg n) time in the worst case" (CLRS, p. 308).
+
+Personal Reflection
+Working through this comparison reinforced that data structure selection is never one-size-fits-all. Before this analysis, I defaulted to hash tables for most problems because of their O(1) average lookup. This paper taught me that real-world requirements—especially range queries and worst-case guarantees—can shift the balance toward tree-based structures. Understanding these trade-offs is essential for building scalable, reliable software systems.
+
+Conclusion
+For search-intensive applications requiring both exact lookups and range queries, Red-Black trees offer the most balanced performance profile. While hash tables dominate in average-case single-key lookups, their inability to support ordered operations and their vulnerability to worst-case degradation make them less suitable for applications like product catalogs. Sorted arrays offer excellent read performance but are prohibitively expensive for frequent updates. The choice of data structure should always be driven by the specific access patterns and requirements of the application.
+
+References
+Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms (3rd ed.). MIT Press.
+Knuth, D. E. (1998). The Art of Computer Programming, Volume 3: Sorting and Searching (2nd ed.). Addison-Wesley.
+Sedgewick, R., & Wayne, K. (2011). Algorithms (4th ed.). Addison-Wesley.

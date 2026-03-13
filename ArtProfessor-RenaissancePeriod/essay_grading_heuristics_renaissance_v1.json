@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "rubricId": "art-history-renaissance-essay-v1",
+    "title": "Professor-Style Art History Essay Grading Heuristics (Renaissance Period)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as an art history professor.",
+    "scope": "Grades a student essay analyzing Renaissance art, artists, and cultural context."
+  },
+  "assignment": {
+    "topic": "Artistic innovation, patronage, and cultural transformation during the Italian Renaissance (c. 1400–1600)",
+    "promptToStudent": "Write a formal art history essay that analyzes the artistic innovations of the Italian Renaissance. Select at least three specific artworks by at least two different artists and provide formal, contextual, and iconographic analysis. Argue a thesis about how Renaissance art reflected or shaped the cultural, intellectual, or political values of the period. Support your argument with visual evidence and scholarly sources.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": ["Art history textbooks and scholarly monographs are required.", "Museum catalog entries are acceptable.", "Do not use general encyclopedias as primary analytical sources."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "page numbers", "clear headings", "image references or figure numbers if applicable"],
+      "acceptableCitationStyles": ["Chicago", "MLA"],
+      "citationMinimum": { "scholarlyArtHistorySources": { "min": 3 }, "artworksAnalyzed": { "min": 3 } }
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "essay title"], "minWords": 0 },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["historical context of the Renaissance", "thesis about art and cultural values", "roadmap of artworks and artists to be discussed"] },
+      { "id": "historical_context", "name": "Historical & Cultural Context", "required": true, "minWords": 250, "mustInclude": ["humanism and intellectual climate", "patronage systems (Medici, Church, civic)", "political and economic conditions"] },
+      { "id": "formal_analysis", "name": "Formal Analysis of Artworks", "required": true, "minWords": 400, "mustInclude": ["at least 3 artworks analyzed", "composition, color, light, perspective, technique", "artist, title, date, medium for each work"] },
+      { "id": "iconographic_analysis", "name": "Iconographic & Symbolic Analysis", "required": true, "minWords": 200, "mustInclude": ["identification of symbols and their meanings", "connection to religious, mythological, or humanist themes"] },
+      { "id": "comparative_analysis", "name": "Comparative Analysis", "required": true, "minWords": 200, "mustInclude": ["comparison of at least 2 artworks or artists", "how differences reflect evolving styles or values"] },
+      { "id": "personal_reflection", "name": "Personal Reflection", "required": true, "minWords": 150, "mustInclude": ["what changed in your understanding of Renaissance art", "connection to modern art or visual culture"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 120, "mustInclude": ["restate thesis", "synthesize analysis", "lasting significance of Renaissance innovations"] },
+      { "id": "works_cited", "name": "Works Cited / Bibliography", "required": true, "minWords": 0, "mustInclude": ["all cited sources", "list of artworks discussed with full identification"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_historical_context", "name": "Historical & Cultural Context", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c3_formal_analysis", "name": "Formal Analysis of Artworks", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_iconographic_analysis", "name": "Iconographic & Symbolic Analysis", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c5_comparative_analysis", "name": "Comparative Analysis", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c6_reflection", "name": "Personal Reflection", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Art Historical Communication", "weightPercent": 15, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "rubricId": "philosophy-ethics-essay-v1",
+    "title": "Professor-Style Philosophy Essay Grading Heuristics (Ethics)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a philosophy professor.",
+    "scope": "Grades a single student philosophy essay on ethical frameworks and applied ethics."
+  },
+  "assignment": {
+    "topic": "Comparative analysis of ethical frameworks applied to a contemporary moral dilemma",
+    "promptToStudent": "Write a formal philosophy essay that applies at least two ethical frameworks (e.g., utilitarianism, deontology, virtue ethics, care ethics) to a specific contemporary moral dilemma. Argue for which framework provides the most defensible response. Support your argument with references to primary philosophical texts and engage with at least one substantive objection.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryOptional": true,
+      "secondaryConstraints": ["Primary philosophical texts are required (e.g., Mill, Kant, Aristotle, Noddings).", "Secondary scholarly commentary is encouraged.", "Do not use encyclopedias or summary sites as primary sources."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "page numbers", "clear headings"],
+      "acceptableCitationStyles": ["MLA", "APA", "Chicago"],
+      "citationMinimum": { "primaryPhilosophicalTexts": { "min": 2 }, "notes": ["At least 2 primary philosophical texts required."] }
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "essay title"], "minWords": 0 },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["identification of the moral dilemma", "thesis statement defending one framework", "roadmap of the argument"] },
+      { "id": "framework_exposition", "name": "Ethical Framework Exposition", "required": true, "minWords": 400, "mustInclude": ["at least 2 frameworks defined with key principles", "references to original philosophers", "clear differentiation between frameworks"] },
+      { "id": "applied_analysis", "name": "Applied Ethical Analysis", "required": true, "minWords": 400, "mustInclude": ["application of each framework to the dilemma", "specific moral reasoning for each", "comparison of outcomes/judgments"] },
+      { "id": "defense", "name": "Thesis Defense & Argumentation", "required": true, "minWords": 250, "mustInclude": ["argument for why one framework is superior for this dilemma", "premises clearly stated", "conclusion logically follows"] },
+      { "id": "objection_response", "name": "Objection & Response", "required": true, "minWords": 200, "mustInclude": ["at least one substantive objection to the student's position", "charitable reconstruction of the objection", "reasoned response"] },
+      { "id": "personal_reflection", "name": "Personal Reflection", "required": true, "minWords": 150, "mustInclude": ["what changed in your moral reasoning", "connection to real-world ethical challenges", "intellectual honesty about remaining uncertainties"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 120, "mustInclude": ["restate thesis", "synthesize argument", "implications for ethical decision-making"] },
+      { "id": "works_cited", "name": "Works Cited / References", "required": true, "minWords": 0, "mustInclude": ["all cited philosophical texts", "consistent citation format"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_framework_exposition", "name": "Ethical Framework Exposition", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c3_applied_analysis", "name": "Applied Ethical Analysis", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_argumentation", "name": "Thesis Defense & Argumentation Quality", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c5_objection_response", "name": "Objection & Response", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c6_reflection", "name": "Personal Reflection", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Philosophical Clarity", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

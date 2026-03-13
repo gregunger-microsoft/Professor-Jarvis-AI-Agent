@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "rubricId": "cs-data-structures-paper-v1",
+    "title": "Professor-Style Data Structures Analysis Paper Grading Heuristics",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a CS professor.",
+    "scope": "Grades a student analytical paper comparing data structures and their algorithmic trade-offs."
+  },
+  "assignment": {
+    "topic": "Comparative analysis of data structures: design, complexity, and real-world application trade-offs",
+    "promptToStudent": "Write a formal analytical paper that compares at least three data structures (e.g., arrays, linked lists, hash tables, binary search trees, heaps, graphs). For each, analyze time and space complexity for key operations, discuss real-world use cases, and argue which data structure is best suited for a specific application scenario you define. Include pseudocode or code examples to illustrate key operations.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryOptional": true,
+      "secondaryConstraints": ["Textbooks (e.g., CLRS, Sedgewick) and peer-reviewed papers are preferred.", "Official language documentation is acceptable.", "Do not use tutorial blogs as primary analytical sources."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "clear headings", "code/pseudocode blocks properly formatted"],
+      "acceptableCitationStyles": ["ACM", "IEEE", "APA"]
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "paper title"], "minWords": 0 },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["problem context", "thesis about data structure suitability", "scope of comparison"] },
+      { "id": "ds_descriptions", "name": "Data Structure Descriptions", "required": true, "minWords": 400, "mustInclude": ["at least 3 data structures defined", "key operations for each", "structural properties (e.g., ordered, hashed, tree-based)"] },
+      { "id": "complexity_analysis", "name": "Complexity Analysis", "required": true, "minWords": 300, "mustInclude": ["Big-O time complexity for key operations (insert, search, delete)", "space complexity", "best/average/worst case distinctions where relevant"] },
+      { "id": "code_examples", "name": "Code / Pseudocode Examples", "required": true, "minWords": 0, "mustInclude": ["at least 2 code or pseudocode examples", "examples must illustrate a key operation", "brief explanation of what the code does"] },
+      { "id": "tradeoff_analysis", "name": "Trade-off Analysis & Application", "required": true, "minWords": 300, "mustInclude": ["comparison of trade-offs between structures", "specific application scenario defined", "argument for best-fit data structure with justification"] },
+      { "id": "personal_reflection", "name": "Personal Reflection", "required": true, "minWords": 100, "mustInclude": ["what you learned about choosing data structures", "connection to software engineering practice"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 120, "mustInclude": ["restate thesis", "summarize comparison", "implications for software design"] },
+      { "id": "references", "name": "References", "required": true, "minWords": 0, "mustInclude": ["all cited sources", "consistent citation format"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_ds_descriptions", "name": "Data Structure Descriptions", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c3_complexity_analysis", "name": "Complexity Analysis Accuracy", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_code_examples", "name": "Code / Pseudocode Quality", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c5_tradeoff_analysis", "name": "Trade-off Analysis & Application Argument", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c6_reflection", "name": "Personal Reflection", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Technical Communication", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

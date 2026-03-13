@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "rubricId": "history-essay-wwii-v1",
+    "title": "Professor-Style History Essay Grading Heuristics (World War II)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a history professor in Microsoft Copilot Studio.",
+    "scope": "Grades a single student history essay against explicit requirements and produces a grading-accuracy self-audit.",
+    "license": "Rubric text is original; historical events are public domain."
+  },
+  "assignment": {
+    "topic": "Causes, turning points, and lasting consequences of World War II",
+    "subject": {
+      "title": "World War II (1939–1945)",
+      "scope": "European and Pacific theaters, political causes, military strategy, home front, and post-war order",
+      "spoilerPolicy": "Not applicable. Historical events are factual."
+    },
+    "promptToStudent": "Write a formal analytical essay that argues a clear thesis about the causes, key turning points, or lasting consequences of World War II. Support your thesis with primary and secondary historical sources and analysis.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": [
+        "Secondary sources must be peer-reviewed or from reputable historical publishers.",
+        "All sources must be cited.",
+        "Do not use encyclopedias (e.g., Wikipedia) as primary analytical sources."
+      ]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "measurement": "Count words in the essay body excluding title page, references, and appendices.",
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70, "reason": "Too short to meet assignment depth." },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90, "reason": "Exceeds hard limit; conciseness requirement violated." },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5, "reason": "Below target range." },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3, "reason": "Above target range." }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "page numbers", "clear headings for required sections"],
+      "acceptableCitationStyles": ["Chicago", "Turabian", "APA"],
+      "citationMinimum": {
+        "primarySources": { "min": 2 },
+        "secondarySources": { "min": 3 },
+        "notes": ["At least 2 primary source references (speeches, treaties, documents, diaries).", "At least 3 secondary source references (historians, scholarly analyses)."]
+      }
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "essay title"], "minWords": 0 },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["historical context (2–4 sentences)", "explicit thesis statement (1–2 sentences)", "roadmap of main arguments"] },
+      { "id": "historical_background", "name": "Historical Background", "required": true, "minWords": 250, "maxWords": 400, "mustInclude": ["pre-war political climate", "key treaties or failures of diplomacy", "rise of totalitarian regimes"] },
+      { "id": "cause_analysis", "name": "Cause Analysis", "required": true, "minWords": 300, "mustInclude": ["political causes", "economic causes", "ideological causes", "at least one primary source reference"] },
+      { "id": "turning_points", "name": "Key Turning Points", "required": true, "minWords": 300, "mustInclude": ["at least 2 major turning points with dates", "explanation of strategic significance", "connection to thesis"] },
+      { "id": "consequences", "name": "Consequences & Legacy", "required": true, "minWords": 250, "mustInclude": ["post-war political restructuring", "human cost and societal impact", "long-term geopolitical consequences (Cold War, UN, etc.)"] },
+      { "id": "source_evidence", "name": "Source Evidence (Integrated)", "required": true, "minWords": 0, "mustInclude": ["2+ primary source citations", "3+ secondary source citations", "each citation introduced and followed by analysis"] },
+      { "id": "counterargument", "name": "Counterargument / Historiographical Debate", "required": true, "minWords": 150, "mustInclude": ["at least one alternative historical interpretation", "response/rebuttal grounded in evidence"] },
+      { "id": "personal_reflection", "name": "Personal Reflection (Academic Tone)", "required": true, "minWords": 150, "mustInclude": ["what changed in your understanding", "connection to modern geopolitics or conflict", "a specific historical moment that shaped your view"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 150, "mustInclude": ["restate thesis (not verbatim)", "synthesize key arguments", "final implication or call to continued study"] },
+      { "id": "bibliography", "name": "Bibliography / Works Cited", "required": true, "minWords": 0, "mustInclude": ["all primary sources", "all secondary sources", "consistent citation format"] }
+    ],
+    "inappropriateOrIncorrectRules": {
+      "hardFailConditions": [
+        { "id": "plagiarism", "description": "Substantial plagiarism or copy/paste from existing essays or summaries.", "action": "overallGradePercent=0", "notes": "If detected, fail the assignment regardless of content quality." },
+        { "id": "fabricated_sources", "description": "Invented historical sources or fabricated quotations presented as real.", "action": "overallGradePercent=max(50, overallGradePercent-30)", "notes": "Severe academic integrity issue; apply major penalty and flag." },
+        { "id": "hateful_or_harassing", "description": "Hate speech, Holocaust denial, harassment, or demeaning content.", "action": "overallGradePercent=0", "notes": "Unsafe/inappropriate content is not accepted." }
+      ],
+      "majorPenaltyConditions": [
+        { "id": "narrative_over_analysis", "description": "More than 40% of body text is chronological retelling with minimal analysis.", "action": "deductPercent", "value": 15 },
+        { "id": "no_thesis", "description": "No identifiable thesis or the 'thesis' is purely descriptive.", "action": "capOverallGradePercent", "value": 65 },
+        { "id": "missing_required_section", "description": "Any required section is missing or extremely underdeveloped (<50% of minWords).", "action": "deductPercent", "value": 10, "stackable": true }
+      ],
+      "minorPenaltyConditions": [
+        { "id": "typos_many", "description": "Frequent typos/grammar errors that distract but do not block understanding.", "action": "deductPercent", "value": 3 },
+        { "id": "weak_headings", "description": "Sections present but headings unclear or inconsistent.", "action": "deductPercent", "value": 2 }
+      ]
+    }
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "rounding": { "method": "nearest", "increment": 1 },
+    "letterGradeScale": [
+      { "minPercent": 93, "letter": "A" }, { "minPercent": 90, "letter": "A-" },
+      { "minPercent": 87, "letter": "B+" }, { "minPercent": 83, "letter": "B" },
+      { "minPercent": 80, "letter": "B-" }, { "minPercent": 77, "letter": "C+" },
+      { "minPercent": 73, "letter": "C" }, { "minPercent": 70, "letter": "C-" },
+      { "minPercent": 67, "letter": "D+" }, { "minPercent": 63, "letter": "D" },
+      { "minPercent": 60, "letter": "D-" }, { "minPercent": 0, "letter": "F" }
+    ],
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Clear, arguable thesis about WWII; strong roadmap; concise historical context." },
+          { "score": 4, "descriptor": "Thesis is arguable; roadmap mostly clear; minor vagueness in scope." },
+          { "score": 3, "descriptor": "Thesis present but broad or partly descriptive; weak roadmap." },
+          { "score": 2, "descriptor": "Thesis hard to find or not arguable; intro mostly narrative." },
+          { "score": 1, "descriptor": "No real thesis; introduction fails to set up argument." },
+          { "score": 0, "descriptor": "Missing introduction/thesis section." }
+        ]
+      },
+      { "id": "c2_historical_background", "name": "Historical Background (Brevity + Accuracy)", "weightPercent": 10, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Accurate, objective, and within 250–400 words; sets up causes effectively." },
+          { "score": 4, "descriptor": "Accurate; slightly outside target range or minor omissions." },
+          { "score": 3, "descriptor": "Mostly accurate but too detailed or missing key pre-war elements." },
+          { "score": 2, "descriptor": "Noticeable inaccuracies or excessive detail; unclear connection to thesis." },
+          { "score": 1, "descriptor": "Largely inaccurate or far too long/short." },
+          { "score": 0, "descriptor": "Missing historical background section." }
+        ]
+      },
+      { "id": "c3_cause_analysis", "name": "Cause Analysis Depth", "weightPercent": 20, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Insightful multi-causal analysis (political, economic, ideological) with primary source evidence." },
+          { "score": 4, "descriptor": "Good analysis; one cause dimension less developed or evidence thin." },
+          { "score": 3, "descriptor": "Basic causes identified; limited interpretation or missing a required dimension." },
+          { "score": 2, "descriptor": "Mostly narrative retelling; minimal causal analysis." },
+          { "score": 1, "descriptor": "Superficial or inaccurate causal claims." },
+          { "score": 0, "descriptor": "Missing cause analysis section." }
+        ]
+      },
+      { "id": "c4_turning_points", "name": "Turning Points & Strategic Significance", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Strong analysis of 2+ turning points; clear strategic reasoning; connected to thesis." },
+          { "score": 4, "descriptor": "Clear turning points identified; one analysis underdeveloped." },
+          { "score": 3, "descriptor": "Turning points listed but analysis is general or lacks dates/context." },
+          { "score": 2, "descriptor": "Vague references to battles/events without strategic analysis." },
+          { "score": 1, "descriptor": "Confused or inaccurate claims about key events." },
+          { "score": 0, "descriptor": "Missing turning points section." }
+        ]
+      },
+      { "id": "c5_source_evidence", "name": "Source Evidence & Citation Integration", "weightPercent": 15, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "2+ primary and 3+ secondary sources smoothly integrated; each analyzed; citations consistent." },
+          { "score": 4, "descriptor": "Meets source minimums; analysis present; minor integration/citation issues." },
+          { "score": 3, "descriptor": "Sources present but analysis is thin or sources overused without interpretation." },
+          { "score": 2, "descriptor": "Too few sources or citations dropped in without analysis." },
+          { "score": 1, "descriptor": "Sources missing or citations absent." },
+          { "score": 0, "descriptor": "No source evidence section or no citations." }
+        ]
+      },
+      { "id": "c6_counterargument", "name": "Counterargument & Historiographical Awareness", "weightPercent": 10, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Engages with alternative interpretations; rebuttal is evidence-based and nuanced." },
+          { "score": 4, "descriptor": "Good counterargument; response could be deeper." },
+          { "score": 3, "descriptor": "Counterargument mentioned but not fully developed or rebutted." },
+          { "score": 2, "descriptor": "Thin or absent counterargument; mostly one-sided." },
+          { "score": 1, "descriptor": "Misrepresents opposing views or provides straw-man argument." },
+          { "score": 0, "descriptor": "Missing counterargument section." }
+        ]
+      },
+      { "id": "c7_reflection", "name": "Personal Reflection + Modern Connection", "weightPercent": 5, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Specific, thoughtful reflection; strong connection to modern geopolitics or conflict." },
+          { "score": 4, "descriptor": "Clear reflection; connection present but could be deeper." },
+          { "score": 3, "descriptor": "General reflection; vague modern connection." },
+          { "score": 2, "descriptor": "Mostly summary; minimal reflection." },
+          { "score": 1, "descriptor": "Off-topic or inappropriate tone." },
+          { "score": 0, "descriptor": "Missing reflection section." }
+        ]
+      },
+      { "id": "c8_writing_quality", "name": "Writing Quality (Clarity, Organization, Mechanics)", "weightPercent": 10, "scoreType": "0-5",
+        "levels": [
+          { "score": 5, "descriptor": "Clear academic tone; strong transitions; minimal errors." },
+          { "score": 4, "descriptor": "Mostly clear; minor organization/mechanics issues." },
+          { "score": 3, "descriptor": "Understandable but repetitive; noticeable grammar/structure issues." },
+          { "score": 2, "descriptor": "Hard to follow; frequent errors; weak structure." },
+          { "score": 1, "descriptor": "Very difficult to read or inappropriate tone." },
+          { "score": 0, "descriptor": "Unscorable." }
+        ]
+      }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "scale": { "type": "1-5", "anchors": { "1": "Strongly disagree / unreliable", "3": "Unclear or coin-toss", "5": "Strongly agree / highly reliable" } },
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence", "description": "Did the grader apply the stated requirements and scoring levels without inventing new rules?" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding", "description": "Does each score include concrete evidence snippets from the student essay?" },
+      { "id": "a3_consistency", "name": "Internal Consistency", "description": "Are similar issues penalized consistently?" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases", "description": "Does the grader flag close calls and avoid overconfident claims?" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism", "description": "Is the feedback respectful, non-discriminatory, and appropriate?" }
+    ],
+    "confidenceMapping": [
+      { "condition": "avgScore >= 4.5", "confidence": "High" },
+      { "condition": "3.5 <= avgScore < 4.5", "confidence": "Medium" },
+      { "condition": "avgScore < 3.5", "confidence": "Low" }
+    ]
+  }
+}

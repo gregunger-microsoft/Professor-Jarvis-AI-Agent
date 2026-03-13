@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "rubricId": "music-classical-composition-analysis-v1",
+    "title": "Professor-Style Music Analysis Paper Grading Heuristics (Classical Composition)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a music professor.",
+    "scope": "Grades a student analytical paper on classical music composition (Baroque, Classical, Romantic periods)."
+  },
+  "assignment": {
+    "topic": "Formal, harmonic, and contextual analysis of classical compositions from the Common Practice Period (c. 1600–1900)",
+    "promptToStudent": "Write a formal analytical paper examining at least two compositions from the Common Practice Period (Baroque, Classical, or Romantic era). Provide detailed formal analysis (structure/form), harmonic analysis (key relationships, modulations, cadences), and contextual analysis (composer's intent, historical period, performance conventions). Argue a thesis about how musical form and harmonic language serve expressive or dramatic purposes in the works you analyze.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryRequired": true,
+      "secondaryConstraints": ["Music theory textbooks and scholarly analyses are required.", "Score references (measure numbers) are strongly encouraged.", "Do not rely on casual listening guides or fan websites as primary sources."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 1500, "max": 2000 },
+      "hardLimits": { "min": 1200, "max": 2500 },
+      "penalties": [
+        { "condition": "wordCount < 1200", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 2500", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1200 <= wordCount < 1500", "action": "deductPercent", "value": 5 },
+        { "condition": "2000 < wordCount <= 2500", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "clear headings", "measure numbers referenced where applicable"],
+      "acceptableCitationStyles": ["Chicago", "MLA", "APA"]
+    },
+    "requiredSections": [
+      { "id": "title_page", "name": "Title Page", "required": true, "mustInclude": ["student name", "course", "instructor", "date", "paper title"], "minWords": 0 },
+      { "id": "intro_thesis", "name": "Introduction + Thesis", "required": true, "minWords": 200, "mustInclude": ["identification of works analyzed", "thesis about form and expression", "scope and approach"] },
+      { "id": "historical_context", "name": "Historical & Stylistic Context", "required": true, "minWords": 200, "mustInclude": ["composers' biographical context", "musical period characteristics", "relevant performance or publication history"] },
+      { "id": "formal_analysis", "name": "Formal/Structural Analysis", "required": true, "minWords": 350, "mustInclude": ["identification of form (sonata, rondo, etc.)", "section-by-section breakdown", "thematic material and development"] },
+      { "id": "harmonic_analysis", "name": "Harmonic Analysis", "required": true, "minWords": 300, "mustInclude": ["key centers and modulations", "significant cadences", "harmonic rhythm and tension/resolution patterns"] },
+      { "id": "expressive_analysis", "name": "Expressive & Dramatic Analysis", "required": true, "minWords": 200, "mustInclude": ["how form/harmony serve expressive purposes", "dynamic, tempo, and textural choices", "connection between musical language and emotional content"] },
+      { "id": "comparative_element", "name": "Comparative Element", "required": true, "minWords": 150, "mustInclude": ["comparison of the two works or composers", "how differences reflect period, style, or compositional philosophy"] },
+      { "id": "personal_reflection", "name": "Personal Reflection", "required": true, "minWords": 100, "mustInclude": ["what deepened your understanding of classical music", "connection to your own musical experience or modern music"] },
+      { "id": "conclusion", "name": "Conclusion", "required": true, "minWords": 120, "mustInclude": ["restate thesis", "synthesize findings", "significance of the analyzed works"] },
+      { "id": "works_cited", "name": "Works Cited / References", "required": true, "minWords": 0, "mustInclude": ["all cited sources", "score editions referenced"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_thesis_and_intro", "name": "Introduction & Thesis Quality", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_historical_context", "name": "Historical & Stylistic Context", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c3_formal_analysis", "name": "Formal/Structural Analysis", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c4_harmonic_analysis", "name": "Harmonic Analysis Accuracy", "weightPercent": 20, "scoreType": "0-5" },
+      { "id": "c5_expressive_analysis", "name": "Expressive & Dramatic Analysis", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c6_comparative_element", "name": "Comparative Element", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Music-Theoretical Communication", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+STUDENT SCIENCE REPORT SUBMISSION (AUTHORITATIVE TEXT)
+Title: Rising Temperatures, Rising Stakes: The Science and Consequences of Climate Change
+Student Name: Alex Chen
+Course: ENVS 250 — Environmental Science
+Instructor: Professor Williams
+Date: March 13, 2026
+
+Abstract
+This report examines the scientific mechanisms driving anthropogenic climate change, analyzes recent temperature and sea-level data, and evaluates the effectiveness of key mitigation strategies. The evidence demonstrates that greenhouse gas emissions from fossil fuel combustion are the primary driver of observed warming since the mid-20th century. Impacts range from accelerated ice sheet loss to disruptions in agricultural productivity. Carbon pricing and renewable energy deployment are evaluated as promising but insufficient mitigation approaches without coordinated global policy action.
+
+Introduction
+Climate change is one of the most pressing challenges facing humanity in the 21st century. The Intergovernmental Panel on Climate Change (IPCC) has concluded with high confidence that human activities are the dominant cause of the global warming observed since the 1950s (IPCC, 2021). This report argues that while the scientific evidence for anthropogenic climate change is overwhelming, current mitigation strategies remain insufficient to meet the Paris Agreement target of limiting warming to 1.5 degrees Celsius above pre-industrial levels. By examining the mechanisms of the greenhouse effect, recent data trends, and the feasibility of proposed solutions, this report demonstrates the urgent need for accelerated climate action.
+
+Scientific Background
+The greenhouse effect is a natural process in which certain atmospheric gases—primarily carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O)—trap outgoing infrared radiation and warm the Earth's surface. Without this effect, the planet's average temperature would be approximately -18 degrees Celsius rather than the current 15 degrees Celsius (Trenberth et al., 2009). Human activities, particularly the combustion of fossil fuels and deforestation, have increased atmospheric CO2 concentrations from approximately 280 parts per million (ppm) in pre-industrial times to over 420 ppm in 2024 (NOAA, 2024). Ice core records from Antarctica show that current CO2 levels are higher than at any point in the past 800,000 years (Luthi et al., 2008). Methane concentrations have similarly risen due to agriculture, livestock, and fossil fuel extraction.
+
+Evidence and Data Analysis
+NASA's Goddard Institute for Space Studies (GISS) surface temperature analysis shows that global average surface temperature has increased by approximately 1.1 degrees Celsius since the late 19th century, with most of the warming occurring since 1975 (Hansen et al., 2010). The rate of warming has accelerated in recent decades, with the period 2014–2023 representing the warmest decade in the instrumental record. Sea level data from satellite altimetry indicates a global mean sea level rise of approximately 3.6 mm per year since 1993, with acceleration observed from ice sheet contributions (Nerem et al., 2018).
+
+Ocean temperature data reveals that the oceans have absorbed over 90% of the excess heat trapped by greenhouse gases (Cheng et al., 2019). This thermal absorption has consequences including ocean thermal expansion, coral bleaching events, and disruption of marine ecosystems. The relationship between rising CO2 and rising temperatures is well established through both observational data and climate modeling studies, providing strong support for the thesis that current warming is driven primarily by human emissions.
+
+Impacts Assessment
+The ecological impacts of climate change are widespread and accelerating. Arctic sea ice extent has declined by approximately 13% per decade since satellite observations began in 1979 (Stroeve et al., 2012). Terrestrial ecosystems are experiencing shifts in species ranges, altered migration patterns, and increased wildfire frequency. Coral reef systems, including the Great Barrier Reef, have experienced mass bleaching events with increasing frequency.
+
+Human and societal impacts include threats to food security, displacement of coastal populations, and increased frequency of extreme weather events. Agricultural productivity in tropical and subtropical regions is projected to decline, while some northern regions may experience temporary gains. Small island nations and low-lying coastal areas face existential threats from sea level rise. The World Health Organization estimates that climate change will cause approximately 250,000 additional deaths per year between 2030 and 2050 from malnutrition, malaria, diarrhea, and heat stress (WHO, 2018).
+
+Mitigation Strategies
+Carbon pricing mechanisms, including cap-and-trade systems and carbon taxes, have been implemented in various jurisdictions. The European Union Emissions Trading System (EU ETS), the world's largest carbon market, has contributed to emissions reductions in the power sector but has faced criticism for price volatility and overallocation of permits in early phases (Ellerman et al., 2016). Carbon pricing can incentivize emission reductions but requires careful design to be effective and equitable.
+
+Renewable energy deployment has accelerated dramatically, with solar and wind energy costs declining by 85% and 55% respectively between 2010 and 2020 (IRENA, 2021). However, intermittency challenges and the need for grid-scale energy storage remain barriers to full decarbonization. Both strategies show promise but are insufficient individually; a combination of technological, policy, and behavioral interventions is necessary.
+
+Counterargument
+Some critics argue that natural climate variability, such as solar cycles and volcanic activity, could account for observed warming. However, studies comparing the radiative forcing from natural versus anthropogenic factors clearly demonstrate that natural factors alone cannot explain the observed warming pattern (Myhre et al., 2013). Solar irradiance has been relatively flat or slightly declining since the 1980s while temperatures have continued to rise, effectively ruling out solar variability as the primary driver.
+
+Personal Reflection
+This research has deepened my understanding of the complexity of climate science and the gap between scientific evidence and policy action. I was particularly struck by the scale of ocean heat absorption and its cascading effects on marine ecosystems. As a future scientist, I recognize the importance of communicating climate data clearly to both policymakers and the public, and I believe translating scientific findings into actionable policies is one of the most critical challenges of our generation.
+
+Conclusion
+The scientific evidence for anthropogenic climate change is robust and supported by multiple independent data sets and analytical approaches. Current warming of approximately 1.1 degrees Celsius is primarily driven by greenhouse gas emissions from human activities. While mitigation strategies such as carbon pricing and renewable energy deployment show promise, they remain insufficient at current scales to meet the 1.5 degree Celsius target. Acceleration of research, policy implementation, and international cooperation is essential to address the growing gap between climate ambition and climate action.
+
+References
+Cheng, L., et al. (2019). How fast are the oceans warming? Science, 363(6423), 128-129.
+Ellerman, A. D., et al. (2016). The European Union Emissions Trading System. Cambridge University Press.
+Hansen, J., et al. (2010). Global surface temperature change. Reviews of Geophysics, 48(4).
+IPCC. (2021). Climate Change 2021: The Physical Science Basis. Cambridge University Press.
+IRENA. (2021). Renewable Power Generation Costs in 2020. International Renewable Energy Agency.
+Luthi, D., et al. (2008). High-resolution carbon dioxide concentration record. Nature, 453, 379-382.
+Myhre, G., et al. (2013). Anthropogenic and Natural Radiative Forcing. In Climate Change 2013. Cambridge University Press.
+Nerem, R. S., et al. (2018). Climate-change-driven accelerated sea-level rise. PNAS, 115(9), 2022-2025.
+NOAA. (2024). Trends in Atmospheric Carbon Dioxide. Global Monitoring Laboratory.
+Stroeve, J. C., et al. (2012). Trends in Arctic sea ice extent. Geophysical Research Letters, 39(16).
+Trenberth, K. E., et al. (2009). Earth's global energy budget. BAMS, 90(3), 311-324.
+WHO. (2018). Climate Change and Health. World Health Organization.

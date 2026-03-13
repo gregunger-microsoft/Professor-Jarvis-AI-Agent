@@ -1,0 +1,71 @@
+STUDENT RESEARCH PROPOSAL SUBMISSION (AUTHORITATIVE TEXT)
+Title: The Effect of Social Media Usage on Sleep Quality Among College Students
+Student Name: Olivia Martinez
+Course: PSYC 301 — Research Methods in Psychology
+Instructor: Professor Harris
+Date: March 13, 2026
+
+Abstract
+This research proposal examines the relationship between daily social media usage and self-reported sleep quality among undergraduate college students. Previous research has established correlations between screen time and sleep disturbances, but the specific contribution of social media — as distinct from other forms of screen use — remains underexplored in controlled experimental designs. This study proposes a between-subjects experimental design in which participants are randomly assigned to either a restricted social media condition (maximum 30 minutes per day) or an unrestricted condition over a 14-day period. Sleep quality will be measured using the Pittsburgh Sleep Quality Index (PSQI). It is hypothesized that participants in the restricted condition will report significantly higher sleep quality than those in the unrestricted condition. This proposal includes a detailed methodology, analysis plan using an independent-samples t-test, ethical considerations, and limitations.
+
+Keywords: social media, sleep quality, college students, PSQI, screen time
+
+Introduction and Literature Review
+Sleep quality among college students has become a growing concern in public health and educational settings. The National Sleep Foundation recommends 7–9 hours of sleep for young adults, yet studies consistently find that college students average fewer than 7 hours per night (Lund et al., 2010). Poor sleep quality has been associated with decreased academic performance, impaired cognitive functioning, and increased risk of anxiety and depression (Pilcher & Walters, 1997; Curcio et al., 2006).
+
+The rapid proliferation of social media platforms has introduced a new variable into the sleep equation. A meta-analysis by Carter et al. (2016) found a significant association between social media use and poor sleep outcomes across multiple studies, with effects including delayed sleep onset, reduced sleep duration, and increased nighttime awakenings. Levenson et al. (2016) reported that young adults who used social media more frequently were three times more likely to experience sleep disturbance compared to those with lower usage.
+
+Several mechanisms have been proposed to explain this relationship. Cain and Gradisar (2010) suggest that the blue light emitted by screens suppresses melatonin production, delaying circadian rhythms. Additionally, the psychologically stimulating nature of social media content — including social comparison, fear of missing out (FOMO), and emotional arousal — may increase cognitive and physiological arousal at bedtime (Scott & Woods, 2018). Woods and Scott (2016) found that nighttime-specific social media use, rather than overall daily usage, was the strongest predictor of poor sleep and increased anxiety among adolescents.
+
+Despite this growing body of correlational evidence, there is a notable gap in the literature: few studies have employed experimental designs to test whether reducing social media use causally improves sleep quality. Most existing research relies on cross-sectional surveys, which cannot establish directionality. Hunt et al. (2018) conducted one of the few experimental studies on social media reduction, finding that limiting use to 30 minutes per day significantly reduced loneliness and depression over three weeks, but did not measure sleep as a primary outcome. This proposal addresses this gap by experimentally testing the causal effect of social media restriction on sleep quality using a validated sleep measurement instrument.
+
+Research Question: Does reducing daily social media usage improve self-reported sleep quality among college students?
+
+Hypothesis: Participants who restrict their social media use to 30 minutes per day for 14 days will report significantly higher sleep quality (lower PSQI scores) than participants who use social media without restriction.
+
+Method
+
+Participants
+A total of 80 undergraduate students (ages 18–25) will be recruited from the university psychology department's participant pool. This sample size was determined using a power analysis (G*Power) for an independent-samples t-test, assuming a medium effect size (d = 0.50), alpha = .05, and power = .80, which yielded a minimum requirement of 64 participants. To account for attrition (estimated at 20%), 80 participants will be recruited. Inclusion criteria: enrolled undergraduate, age 18–25, active social media user (self-reported minimum 1 hour/day), English-speaking. Exclusion criteria: diagnosed sleep disorder, current use of sleep medication, night-shift employment.
+
+Materials and Measures
+Sleep quality will be assessed using the Pittsburgh Sleep Quality Index (PSQI; Buysse et al., 1989), a well-validated 19-item self-report measure that yields a global score ranging from 0 to 21, with higher scores indicating poorer sleep quality. The PSQI has demonstrated good internal consistency (Cronbach's alpha = .83) and test-retest reliability. A global PSQI score greater than 5 is considered indicative of poor sleep quality.
+
+Social media usage will be tracked using participants' built-in smartphone screen time monitoring tools (iOS Screen Time or Android Digital Wellbeing), which provide daily usage reports broken down by app category. Participants will submit daily screenshots of their social media usage data to the research team.
+
+Procedure
+Participants will be randomly assigned to one of two conditions: (1) Restricted condition — limited to a maximum of 30 minutes of social media use per day, or (2) Unrestricted condition — no changes to social media habits. All participants will complete the PSQI at baseline (Day 0) and post-intervention (Day 14). During the 14-day period, all participants will submit daily screen time screenshots. Restricted-condition participants will receive a daily reminder to limit usage and will be provided with strategies for reducing social media time (e.g., app timers, notification disabling). Unrestricted-condition participants will simply monitor and report their usage without restriction.
+
+Design and Analysis Plan
+This study employs a between-subjects experimental design with one independent variable: social media condition (restricted vs. unrestricted), and one dependent variable: sleep quality (PSQI global score at Day 14). Baseline PSQI scores will be collected to verify group equivalence at randomization.
+
+The primary analysis will be an independent-samples t-test comparing Day 14 PSQI scores between the two conditions, with a significance level of alpha = .05. If baseline PSQI scores differ significantly between groups, an analysis of covariance (ANCOVA) will be conducted using baseline PSQI as a covariate. Effect size will be reported using Cohen's d. Assumptions of normality will be assessed using Shapiro-Wilk tests, and Levene's test will be used to check homogeneity of variances. If assumptions are violated, a Mann-Whitney U test will be used as a non-parametric alternative.
+
+Ethical Considerations
+This study will be submitted to the university's Institutional Review Board (IRB) for approval prior to data collection. All participants will provide written informed consent, which will clearly describe the study's purpose, procedures, time commitment, and their right to withdraw at any time without penalty. Participants in the restricted condition will be informed that the restriction is voluntary and that they may withdraw if they experience distress from limiting social media use.
+
+Data will be stored on encrypted, password-protected university servers. Participant identifiers will be replaced with alphanumeric codes to ensure confidentiality. Daily screenshots will be reviewed only for social media usage data; other app data will not be recorded. A debriefing session at the end of the study will explain the full research design and provide resources for healthy sleep and social media habits.
+
+Participants will receive course credit for participation, consistent with the department's participant pool guidelines. No deception is involved in this study.
+
+Limitations and Future Directions
+This study has several methodological limitations. First, the 14-day intervention period may not be sufficient to produce significant changes in sleep quality, particularly given that sleep patterns may take time to adjust. Future studies should consider longer intervention periods (4–8 weeks). Second, reliance on self-reported screen time screenshots introduces the possibility of compliance issues — participants in the restricted condition may not fully adhere to the 30-minute limit. Future research could use app-based enforcement tools that automatically disable social media access after the time limit.
+
+Third, the study does not distinguish between types of social media activity (passive scrolling vs. active engagement), which may have differential effects on sleep. Fourth, the sample is limited to college students from a single university, which limits generalizability. Future studies should include broader age groups and multicultural samples.
+
+Despite these limitations, this study contributes to the literature by providing experimental evidence for the causal effect of social media reduction on sleep quality — a relationship that has been primarily studied through correlational designs.
+
+Conclusion
+This research proposal addresses a critical gap in the sleep and technology literature by proposing an experimental test of whether reducing social media usage improves sleep quality among college students. Using a validated instrument (PSQI) and a between-subjects design with random assignment, this study aims to provide causal evidence where only correlational findings currently exist. If the hypothesis is supported, the findings would have practical implications for university wellness programs and digital health interventions targeting student sleep quality.
+
+References
+Buysse, D. J., Reynolds, C. F., Monk, T. H., Berman, S. R., & Kupfer, D. J. (1989). The Pittsburgh Sleep Quality Index: A new instrument for psychiatric practice and research. Psychiatry Research, 28(2), 193-213.
+Cain, N., & Gradisar, M. (2010). Electronic media use and sleep in school-aged children and adolescents: A review. Sleep Medicine, 11(8), 735-742.
+Carter, B., Rees, P., Hale, L., Bhattacharjee, D., & Paradkar, M. S. (2016). Association between portable screen-based media device access or use and sleep outcomes. JAMA Pediatrics, 170(12), 1202-1208.
+Curcio, G., Ferrara, M., & De Gennaro, L. (2006). Sleep loss, learning capacity and academic performance. Sleep Medicine Reviews, 10(5), 323-337.
+Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018). No more FOMO: Limiting social media decreases loneliness and depression. Journal of Social and Clinical Psychology, 37(10), 751-768.
+Levenson, J. C., Shensa, A., Sidani, J. E., Colditz, J. B., & Primack, B. A. (2016). The association between social media use and sleep disturbance among young adults. Preventive Medicine, 85, 36-41.
+Lund, H. G., Reider, B. D., Whiting, A. B., & Prichard, J. R. (2010). Sleep patterns and predictors of disturbed sleep in a large population of college students. Journal of Adolescent Health, 46(2), 124-132.
+Pilcher, J. J., & Walters, A. S. (1997). How sleep deprivation affects psychological variables related to college students' cognitive performance. Journal of American College Health, 46(3), 121-126.
+Scott, H., & Woods, H. C. (2018). Fear of missing out and sleep: Cognitive behavioural factors in adolescents' nighttime social media use. Journal of Adolescence, 68, 61-65.
+Woods, H. C., & Scott, H. (2016). #Sleepyteens: Social media use in adolescence is associated with poor sleep quality, anxiety, depression and low self-esteem. Journal of Adolescence, 51, 41-49.

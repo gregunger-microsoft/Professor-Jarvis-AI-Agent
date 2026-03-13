@@ -1,0 +1,71 @@
+STUDENT CALCULUS PROOF SUBMISSION (AUTHORITATIVE TEXT)
+Student Name: Michael Torres
+Course: MATH 301 — Advanced Calculus
+Instructor: Professor Lee
+Date: March 13, 2026
+
+Problem 1: Prove that the sequence a_n = 1/n converges to 0
+
+Claim: lim (n -> infinity) 1/n = 0.
+
+Proof: Let epsilon > 0 be given. We need to find N in the natural numbers such that for all n > N, |1/n - 0| < epsilon.
+
+Since |1/n - 0| = 1/n, we need 1/n < epsilon, which is equivalent to n > 1/epsilon.
+
+Choose N = ceil(1/epsilon), where ceil denotes the ceiling function. Then for all n > N, we have n > 1/epsilon, so 1/n < epsilon.
+
+Therefore |a_n - 0| < epsilon for all n > N, which proves that lim (n -> infinity) 1/n = 0 by the epsilon-N definition of convergence. QED.
+
+Problem 2: Prove the derivative of f(x) = x^n using the limit definition
+
+Claim: If f(x) = x^n for n in the positive integers, then f'(x) = n * x^(n-1).
+
+Proof: By the limit definition of the derivative:
+f'(x) = lim (h -> 0) [f(x+h) - f(x)] / h
+       = lim (h -> 0) [(x+h)^n - x^n] / h
+
+Using the binomial theorem, (x+h)^n = sum_{k=0}^{n} C(n,k) * x^(n-k) * h^k
+= x^n + n*x^(n-1)*h + C(n,2)*x^(n-2)*h^2 + ... + h^n
+
+Substituting:
+f'(x) = lim (h -> 0) [x^n + n*x^(n-1)*h + C(n,2)*x^(n-2)*h^2 + ... + h^n - x^n] / h
+       = lim (h -> 0) [n*x^(n-1)*h + C(n,2)*x^(n-2)*h^2 + ... + h^n] / h
+       = lim (h -> 0) [n*x^(n-1) + C(n,2)*x^(n-2)*h + ... + h^(n-1)]
+
+As h -> 0, all terms containing h vanish, leaving:
+f'(x) = n * x^(n-1). QED.
+
+Problem 3: Prove the Fundamental Theorem of Calculus, Part 1
+
+Claim: If f is continuous on [a,b] and F(x) = integral from a to x of f(t) dt, then F'(x) = f(x) for all x in (a,b).
+
+Proof: By the definition of the derivative:
+F'(x) = lim (h -> 0) [F(x+h) - F(x)] / h
+       = lim (h -> 0) [integral from a to (x+h) of f(t) dt - integral from a to x of f(t) dt] / h
+       = lim (h -> 0) [integral from x to (x+h) of f(t) dt] / h
+
+Since f is continuous on [a,b], by the Mean Value Theorem for Integrals, there exists c_h between x and x+h such that:
+integral from x to (x+h) of f(t) dt = f(c_h) * h
+
+Therefore:
+F'(x) = lim (h -> 0) f(c_h) * h / h = lim (h -> 0) f(c_h)
+
+As h -> 0, c_h -> x (since c_h is between x and x+h). Because f is continuous, lim (h -> 0) f(c_h) = f(x).
+
+Therefore F'(x) = f(x). QED.
+
+Problem 4: Prove that a continuous function on [a,b] is bounded
+
+Claim: If f is continuous on [a,b], then f is bounded on [a,b].
+
+Proof: Suppose for contradiction that f is not bounded on [a,b]. Then for each positive integer n, there exists x_n in [a,b] such that |f(x_n)| > n.
+
+Since {x_n} is a sequence in the closed interval [a,b], by the Bolzano-Weierstrass theorem, there exists a subsequence {x_{n_k}} that converges to some point c in [a,b].
+
+Since f is continuous at c, we have lim (k -> infinity) f(x_{n_k}) = f(c), which is a finite real number.
+
+But since {x_{n_k}} is a subsequence of {x_n}, we have |f(x_{n_k})| > n_k >= k for all k. This means |f(x_{n_k})| -> infinity as k -> infinity.
+
+This contradicts the fact that f(x_{n_k}) -> f(c), which is finite.
+
+Therefore our assumption was false, and f must be bounded on [a,b]. QED.

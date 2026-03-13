@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "rubricId": "law-constitutional-memo-v1",
+    "title": "Professor-Style Constitutional Law Memorandum Grading Heuristics",
+    "version": "1.0.0",
+    "createdAt": "2026-03-13T00:00:00Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a constitutional law professor.",
+    "scope": "Grades a student legal memorandum analyzing a constitutional law issue."
+  },
+  "assignment": {
+    "topic": "Legal analysis of a constitutional law issue using IRAC method, case law, and constitutional text",
+    "promptToStudent": "Write a formal legal memorandum analyzing a constitutional law issue of your choice. Frame a specific legal question, identify the applicable constitutional provisions and controlling case law, apply the legal rules to a hypothetical or real fact pattern, and reach a reasoned conclusion. Use the IRAC method (Issue, Rule, Application, Conclusion) to structure your analysis. Address at least one counterargument and distinguish or reconcile competing precedents. Cite all cases and constitutional provisions using proper legal citation format.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryOptional": true,
+      "secondaryConstraints": ["Primary sources: U.S. Constitution text and Supreme Court/federal court opinions.", "Secondary sources: law review articles, Restatements, or treatises are acceptable for context.", "Do not use case briefs, study aids (e.g., Quimbee summaries), or Wikipedia as primary authority."]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": { "min": 2000, "max": 2500 },
+      "hardLimits": { "min": 1500, "max": 3000 },
+      "penalties": [
+        { "condition": "wordCount < 1500", "action": "capOverallGradePercent", "value": 70 },
+        { "condition": "wordCount > 3000", "action": "capOverallGradePercent", "value": 90 },
+        { "condition": "1500 <= wordCount < 2000", "action": "deductPercent", "value": 5 },
+        { "condition": "2500 < wordCount <= 3000", "action": "deductPercent", "value": 3 }
+      ]
+    },
+    "formatting": {
+      "required": ["12-pt readable font", "double-spaced", "clear headings following IRAC structure", "proper legal citations"],
+      "acceptableCitationStyles": ["Bluebook"],
+      "citationMinimum": { "casesCited": { "min": 5 }, "constitutionalProvisions": { "min": 1 } }
+    },
+    "requiredSections": [
+      { "id": "heading", "name": "Memorandum Heading", "required": true, "mustInclude": ["To", "From", "Date", "Re (subject)"], "minWords": 0 },
+      { "id": "question_presented", "name": "Question Presented", "required": true, "minWords": 50, "mustInclude": ["specific legal question", "key facts", "applicable constitutional provision"] },
+      { "id": "brief_answer", "name": "Brief Answer", "required": true, "minWords": 50, "mustInclude": ["direct answer to the question", "key reasoning in 2–3 sentences"] },
+      { "id": "statement_of_facts", "name": "Statement of Facts", "required": true, "minWords": 200, "mustInclude": ["relevant facts presented objectively", "legally significant facts identified", "no legal conclusions in facts section"] },
+      { "id": "discussion_issue", "name": "Discussion: Issue Identification", "required": true, "minWords": 100, "mustInclude": ["constitutional issue framed precisely", "sub-issues identified if applicable"] },
+      { "id": "discussion_rule", "name": "Discussion: Rule Statement", "required": true, "minWords": 300, "mustInclude": ["constitutional text cited", "controlling case law with holdings", "doctrinal framework or test articulated (e.g., strict scrutiny, rational basis)"] },
+      { "id": "discussion_application", "name": "Discussion: Application", "required": true, "minWords": 400, "mustInclude": ["rule applied to specific facts", "analogies/distinctions to precedent", "counterargument addressed and rebutted"] },
+      { "id": "discussion_conclusion", "name": "Discussion: Conclusion", "required": true, "minWords": 100, "mustInclude": ["reasoned conclusion on the legal question", "prediction of likely outcome", "acknowledgment of uncertainty where appropriate"] },
+      { "id": "policy_considerations", "name": "Policy Considerations (Optional but Graded)", "required": false, "minWords": 0, "mustInclude": ["broader constitutional or policy implications"] },
+      { "id": "references", "name": "Table of Authorities / References", "required": true, "minWords": 0, "mustInclude": ["all cases cited with proper Bluebook format", "constitutional provisions cited"] }
+    ]
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "criteria": [
+      { "id": "c1_issue_identification", "name": "Issue Identification & Framing", "weightPercent": 10, "scoreType": "0-5" },
+      { "id": "c2_rule_statement", "name": "Rule Statement & Case Law Accuracy", "weightPercent": 25, "scoreType": "0-5" },
+      { "id": "c3_application", "name": "Application & Legal Reasoning", "weightPercent": 30, "scoreType": "0-5" },
+      { "id": "c4_counterargument", "name": "Counterargument & Distinguishing Precedent", "weightPercent": 15, "scoreType": "0-5" },
+      { "id": "c5_conclusion", "name": "Conclusion Quality", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c6_citation_accuracy", "name": "Citation Accuracy & Bluebook Compliance", "weightPercent": 5, "scoreType": "0-5" },
+      { "id": "c7_writing_quality", "name": "Writing Quality & Legal Professional Communication", "weightPercent": 10, "scoreType": "0-5" }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation).",
+    "dimensions": [
+      { "id": "a1_rubric_adherence", "name": "Rubric Adherence" },
+      { "id": "a2_evidence_grounding", "name": "Evidence Grounding" },
+      { "id": "a3_consistency", "name": "Internal Consistency" },
+      { "id": "a4_uncertainty_handling", "name": "Uncertainty & Edge Cases" },
+      { "id": "a5_safety_and_bias", "name": "Safety / Bias / Professionalism" }
+    ]
+  }
+}
