@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "policy_set_name": "Community Governance Policies — Example 1",
+  "description": "A comprehensive policy framework for governing AI agent communities deployed on Azure AI Foundry. Includes global rules, safety protocols, tone standards, and domain-specific guardrails for medical, legal, financial, public safety, and trades domains.",
+  "effective_date": "2026-03-16",
+  "version": "1.0",
+  "enforcement_hierarchy": [
+    "policies/global.md",
+    "policies/safety.md",
+    "policies/domains/*.md",
+    "policies/tone.md"
+  ],
+  "policies": {
+    "global": {
+      "file": "policies/global.md",
+      "policy_id": "POLICY-GLOBAL-001",
+      "priority": 1,
+      "scope": "all_agents",
+      "description": "Foundational rules for all agents — identity, accuracy, privacy, consent, escalation, unauthorized practice, and auditability."
+    },
+    "safety": {
+      "file": "policies/safety.md",
+      "policy_id": "POLICY-SAFETY-001",
+      "priority": 2,
+      "scope": "all_agents",
+      "description": "Safety guardrails — prohibited content, crisis response protocols (suicide, harm, child safety, domestic violence), medical/financial/legal safety, jailbreak resistance, and confidence management."
+    },
+    "tone": {
+      "file": "policies/tone.md",
+      "policy_id": "POLICY-TONE-001",
+      "priority": 4,
+      "scope": "all_agents",
+      "description": "Baseline communication standards — respect, inclusivity, professionalism, clarity, honesty, emotional responsiveness, and persona tone overlay rules."
+    },
+    "domain_medical": {
+      "file": "policies/domains/medical.md",
+      "policy_id": "POLICY-DOMAIN-MEDICAL-001",
+      "priority": 3,
+      "scope": ["Personality-Doctor-EmergencyMedicine", "Personality-Nurse-ICU", "Personality-Chaplain-Hospital"],
+      "description": "Medical domain guardrails — education vs. diagnosis, emergency recognition, evidence standards, patient autonomy, mental health boundaries, HIPAA awareness, and disclaimers."
+    },
+    "domain_legal": {
+      "file": "policies/domains/legal.md",
+      "policy_id": "POLICY-DOMAIN-LEGAL-001",
+      "priority": 3,
+      "scope": ["Personality-Lawyer-CriminalDefense", "Personality-WealthAdvisor-Expert", "Personality-RetirementAdvisor-Expert", "Personality-StockMarketAdvisor-Expert", "Personality-Politician-CityCouncil"],
+      "description": "Legal domain guardrails — education vs. practice, criminal law, tax/financial law, regulatory compliance, attorney-client privilege boundaries, jurisdictional awareness, and disclaimers."
+    },
+    "domain_financial": {
+      "file": "policies/domains/financial.md",
+      "policy_id": "POLICY-DOMAIN-FINANCIAL-001",
+      "priority": 3,
+      "scope": ["Personality-WealthAdvisor-Expert", "Personality-StockMarketAdvisor-Expert", "Personality-RetirementAdvisor-Expert"],
+      "description": "Financial domain guardrails — education vs. advice, suitability standards, investment rules, tax planning rules, retirement-specific rules, behavioral finance awareness, and disclaimers."
+    },
+    "domain_public_safety": {
+      "file": "policies/domains/public-safety.md",
+      "policy_id": "POLICY-DOMAIN-PUBLICSAFETY-001",
+      "priority": 3,
+      "scope": ["Personality-PoliceOfficer-Patrol", "Personality-Firefighter-Captain"],
+      "description": "Public safety domain guardrails — emergency situations, law enforcement topics, fire safety, use of force boundaries, first responder mental health, and disclaimers."
+    },
+    "domain_trades": {
+      "file": "policies/domains/trades.md",
+      "policy_id": "POLICY-DOMAIN-TRADES-001",
+      "priority": 3,
+      "scope": ["Personality-Electrician-Commercial", "Personality-Plumber-Residential"],
+      "description": "Trades domain guardrails — safety requirements, code compliance, DIY vs. professional work boundaries, diagnostic guidance rules, product neutrality, and disclaimers."
+    }
+  },
+  "agents_covered": [
+    "Personality-Orchestrator-Agent",
+    "Personality-Chaplain-Hospital",
+    "Personality-Doctor-EmergencyMedicine",
+    "Personality-Electrician-Commercial",
+    "Personality-Firefighter-Captain",
+    "Personality-Lawyer-CriminalDefense",
+    "Personality-Nurse-ICU",
+    "Personality-Plumber-Residential",
+    "Personality-PoliceOfficer-Patrol",
+    "Personality-Politician-CityCouncil",
+    "Personality-Teacher-HighSchool",
+    "Personality-WealthAdvisor-Expert",
+    "Personality-StockMarketAdvisor-Expert",
+    "Personality-RetirementAdvisor-Expert"
+  ]
+}
