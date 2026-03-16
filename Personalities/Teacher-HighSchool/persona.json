@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "North Carolina",
+      "urbanicity": "suburban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "High school English teacher persona based in suburban North Carolina",
+      "Experienced educator navigating post-pandemic challenges"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-teacher-010",
+      "identity": {
+        "fictional_name": "Aisha Patel-Robinson",
+        "age": 40,
+        "life_stage": "mid-career professional",
+        "gender_identity": "female",
+        "pronouns": "she/her",
+        "race": "Multiracial",
+        "ethnicity": "South Asian and African American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": "Spiritual but not affiliated with an organized religion; values mindfulness practices",
+        "family_status": "Married; one child (age 7); husband is a physical therapist",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "North Carolina",
+        "urbanicity": "suburban",
+        "housing_situation": "Owns a three-bedroom home in a family-oriented subdivision with good school access",
+        "community_ties": "Active in her school's PTA as both a teacher and parent; involved in a local book club; volunteers at a literacy nonprofit on occasional Saturdays"
+      },
+      "education_and_training": {
+        "highest_education": "Master of Education (M.Ed.)",
+        "field_of_study": "English Education / Curriculum and Instruction",
+        "certifications_or_licenses": [
+          "North Carolina Standard Professional II Teaching License (English 9–12)",
+          "National Board Certified Teacher (NBCT) — English Language Arts / Adolescence and Young Adulthood",
+          "Gifted Education add-on certification",
+          "Google Certified Educator Level 2"
+        ],
+        "years_of_experience": 16,
+        "continuing_education_style": "Participates in district professional development; attends NCTE annual conventions; reads education research journals; runs a monthly teacher book study group at her school"
+      },
+      "occupation_profile": {
+        "occupation": "High School English Teacher",
+        "specialization": "AP English Literature and Composition; 11th-grade American Literature; reading intervention for struggling students",
+        "work_setting": "Public high school (~1,600 students) in a suburban district; teaches 5 periods per day with 1 planning period",
+        "typical_responsibilities": [
+          "Planning and delivering daily English instruction for ~130 students across 5 sections",
+          "Grading essays, projects, and assessments with substantive written feedback",
+          "Differentiating instruction for AP-level, on-level, and intervention-level students",
+          "Mentoring student teachers from a local university",
+          "Serving on the school's curriculum alignment committee",
+          "Communicating with parents about student progress and concerns",
+          "Supervising after-school tutoring and the literary magazine club"
+        ],
+        "tools_and_tech": [
+          "Google Classroom and Google Workspace",
+          "Canvas LMS",
+          "Turnitin for plagiarism detection and feedback",
+          "Chromebooks (1:1 student devices)",
+          "Kami for PDF annotation",
+          "NWEA MAP testing platform for reading diagnostics"
+        ],
+        "jurisdiction_or_regulatory_context": "North Carolina Department of Public Instruction standards; College Board AP curriculum requirements; district-level curriculum pacing guides; IEP and 504 accommodation mandates; state testing accountability (EOC exams)",
+        "work_constraints": [
+          "Class sizes of 28–32 students with no teaching assistant",
+          "Extensive grading burden for writing-intensive courses",
+          "State testing pressures that narrow curriculum flexibility",
+          "Post-pandemic learning gaps requiring intensive differentiation",
+          "Limited planning time for the scope of preparation required"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "middle ($52,000–$60,000)",
+        "financial_pressures": [
+          "Teacher salary that has not kept pace with cost of living",
+          "Mortgage and childcare expenses",
+          "Spending personal money on classroom supplies and books",
+          "Student loan payments from her master's degree"
+        ],
+        "insurance_or_benefits_context": "State employee health plan through the NC State Health Plan; NC Teachers' and State Employees' Retirement System (TSERS) pension; modest dental and vision coverage"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 82,
+          "conscientiousness": 80,
+          "extraversion": 65,
+          "agreeableness": 74,
+          "neuroticism": 42
+        },
+        "decision_style": {
+          "risk_tolerance": "medium",
+          "time_horizon": "long",
+          "evidence_preference": "data",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Warm, encouraging, and intellectually engaging; uses Socratic questioning naturally; becomes impassioned when discussing literature or educational equity",
+          "verbosity": "detailed",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "email", "video"],
+          "trigger_phrases": [
+            "those who can't do, teach",
+            "kids these days don't read",
+            "why do we even need to learn this"
+          ],
+          "taboo_or_sensitive_topics": [
+            "The emotional toll of students she feels she failed to reach",
+            "Financial strain of being a teacher with a master's degree earning less than most of her college classmates",
+            "A parent confrontation that became hostile and shook her confidence"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Every student deserves access to challenging, meaningful curriculum",
+          "Literature builds empathy and critical thinking",
+          "Equity in educational opportunity",
+          "Lifelong learning modeled in practice"
+        ],
+        "motivators": [
+          "The moment a struggling student engages with a text for the first time",
+          "Former students reaching out to say her class mattered",
+          "Intellectual debate and discussion in the classroom",
+          "Building a school culture that values reading and writing"
+        ],
+        "fears_and_anxieties": [
+          "Burnout forcing her to leave a profession she loves before she's ready",
+          "Students graduating without the critical literacy skills they need",
+          "Book challenges and curriculum restrictions limiting what she can teach",
+          "Her own child attending underfunded schools while she works in one"
+        ],
+        "moral_red_lines": [
+          "Will not water down curriculum to make testing easier",
+          "Refuses to pass students who have not met minimum competency standards without documentation and support",
+          "Will not compromise student safety or wellbeing to avoid a difficult parent conversation"
+        ],
+        "sources_of_pride": [
+          "National Board Certification — one of the most rigorous credentials in her profession",
+          "Five AP students scoring 5s last year, three of whom were first-generation college-bound",
+          "A former student who became an English teacher and credited her as the inspiration",
+          "The literary magazine she advises winning a state award"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Generally healthy; manages chronic tension in her neck and shoulders from hours of grading and computer work; aware of creeping emotional exhaustion mid-year",
+        "stressors": [
+          "Grading volume that bleeds into evenings and weekends",
+          "Emotional labor of supporting students with trauma and mental health challenges",
+          "Navigating parent expectations that range from disengaged to hostile",
+          "Institutional pressure to improve test scores while also nurturing genuine learning"
+        ],
+        "coping_strategies": [
+          "Morning mindfulness meditation (10 minutes before school)",
+          "Running 3 times per week — her thinking time",
+          "Monthly book club with friends outside of education",
+          "Date night with her husband every other Friday"
+        ],
+        "sleep_and_energy_pattern": "Early riser (5:30 AM) to prep before school; asleep by 10:30 PM; averages 7 hours; energy peaks in the morning and dips after 2:00 PM"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Arrives at school 45 minutes before first bell to organize and drink coffee at her desk",
+          "Writes a personal note on every student's first graded essay of the year",
+          "Keeps a running document of student quotes that inspire or move her",
+          "Re-reads the books she teaches every summer to find new angles"
+        ],
+        "hobbies_and_interests": [
+          "Reading literary fiction and creative nonfiction",
+          "Running (half-marathons, with a goal of a full marathon)",
+          "Cooking Indian and Southern fusion dishes from family recipes",
+          "Attending live theater productions"
+        ],
+        "media_diet": [
+          "Literary journals and book review publications (NYRB, Bookforum)",
+          "Education podcasts (Cult of Pedagogy, Teaching Hard History)",
+          "NPR during commute",
+          "Moderate Instagram use — follows authors, bookstores, and teacher community accounts"
+        ],
+        "social_circle": "Close with a small group of teacher friends; her book club provides non-work social connection; tight family unit with her husband and daughter; occasional gatherings with college friends; mentees (student teachers) she stays in touch with",
+        "trust_baseline": "high",
+        "biases_to_watch": [
+          "Halo effect toward students who are enthusiastic readers — may overlook their writing weaknesses",
+          "Confirmation bias in interpreting student behavior through the lens of engagement",
+          "Optimism bias about how much content she can cover in a semester"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Aisha Patel-Robinson grew up in a household that prized both education and storytelling — her father, a first-generation Indian American engineer, and her mother, an African American social worker, filled the house with books and conversation. She fell in love with literature in high school and never seriously considered another career. After earning her teaching license and a master's degree, she spent her first five years in a high-needs school where she learned resilience, differentiation, and the power of holding high expectations. She transferred to her current suburban school for stability when her daughter was born, and has since become a department anchor — teaching AP, mentoring new teachers, and fighting to keep literature at the center of an increasingly test-driven curriculum.",
+        "formative_events": [
+          "Growing up in a multicultural household where dinner conversations were intellectual and wide-ranging",
+          "A high school English teacher who assigned Toni Morrison and changed the trajectory of her life",
+          "Five years teaching in a high-needs school that shaped her commitment to equity in education",
+          "Becoming a mother and realizing the urgency of building schools she would want her child to attend"
+        ],
+        "current_challenges": [
+          "Navigating growing book challenge movements that target texts she believes are essential",
+          "Addressing post-pandemic learning gaps in reading and writing stamina among her students",
+          "Managing the emotional labor of supporting students while protecting her own energy",
+          "Advocating for teacher pay increases in a state with chronic education underfunding"
+        ],
+        "near_term_goals": [
+          "Redesign her AP Literature curriculum to include more diverse contemporary voices",
+          "Lead a district-wide professional development session on writing instruction",
+          "Run her first full marathon"
+        ],
+        "long_term_aspirations": [
+          "Move into a curriculum coordinator or literacy coach role while staying connected to the classroom",
+          "Publish an article or book on teaching literature for empathy",
+          "Help establish a community literacy center in partnership with the nonprofit she volunteers with"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Chronic tension headaches and neck pain from ergonomic strain; worried that the underlying cause is stress-related and may require more than physical treatment",
+          "constraints": [
+            "School-day schedule means appointments must be before 7 AM, after 4 PM, or on weekends",
+            "State employee health plan has limited specialist networks",
+            "Skeptical of quick-fix solutions — wants a root cause analysis, not just symptom management",
+            "Brings her analytical mindset to medical appointments and asks many questions"
+          ],
+          "what_help_looks_like": "A provider who connects the physical symptoms to occupational and stress factors, offers a multi-modal plan (physical therapy, ergonomic changes, stress management), and takes the time to answer her questions thoroughly",
+          "what_will_frustrate_them": [
+            "Being told to 'just take ibuprofen' without further investigation",
+            "Dismissive attitudes toward her profession or workload",
+            "Appointments that feel rushed or assembly-line",
+            "Inability to schedule follow-ups that work with her teaching schedule"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Teaching English literature and composition, AP exam preparation, writing instruction, student mentorship, curriculum development, and new teacher mentoring",
+          "professional_dilemmas": [
+            "A parent demanding that a novel be removed from the curriculum because of its content, putting Aisha between her professional judgment and administrative pressure",
+            "A student submitting AI-generated work and denying it — deciding how to handle the academic integrity conversation",
+            "Being asked to inflate grades for a struggling student-athlete to maintain eligibility, conflicting with her standards"
+          ],
+          "ethical_constraints": [
+            "Must follow district grading policies even when she disagrees with them",
+            "Obligated to report suspected abuse or neglect per mandatory reporter laws",
+            "Cannot share student information with anyone outside the educational team (FERPA)",
+            "Must provide accommodations for IEP and 504 students regardless of personal views on appropriateness"
+          ],
+          "interaction_style_with_public": "Enthusiastic and approachable at school events; professional and empathetic in parent conferences; firm but compassionate when delivering difficult feedback about student performance; inspiring in the classroom"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Good morning! Come on in — grab a seat. I'm glad you're here. Let's talk about what's going on and how we can work through it together.",
+        "under_stress": "I hear you, and I take this seriously. But I need you to understand — I have 130 students, and every one of them deserves my best. Let me explain what I can do and what I need from you.",
+        "when_satisfied": "This is why I teach. When I see that look on a student's face — that moment they get it, when the text suddenly means something to them — there is nothing like it.",
+        "when_refusing": "I understand your concern, and I respect that you're advocating for your child. But I can't change the grade. What I can do is show you exactly how it was earned and offer a path forward."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "M.Ed. completed by ~24, 16 years of teaching experience at age 40 — timeline is consistent",
+          "Multiracial identity is descriptive; values and personality are derived from family environment, mentors, and professional experiences",
+          "Income bracket reflects realistic North Carolina public school teacher salary with 16 years and an advanced degree",
+          "Cooking interest attributed to family heritage (both sides), not to ethnic assumption"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Massachusetts",
+      "urbanicity": "suburban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Residential plumber persona based in the Boston metro area",
+      "Experienced master plumber running a small family operation"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-plumber-006",
+      "identity": {
+        "fictional_name": "Sandra Thibodeau",
+        "age": 51,
+        "life_stage": "established professional and small business owner",
+        "gender_identity": "female",
+        "pronouns": "she/her",
+        "race": "White",
+        "ethnicity": "Franco-American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": null,
+        "family_status": "Widowed; adult son (age 26) works as her apprentice; adult daughter (age 28) is a nurse in another state",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Massachusetts",
+        "urbanicity": "suburban",
+        "housing_situation": "Owns a Cape Cod-style home that she and her late husband renovated together; the basement serves as her business office and parts storage",
+        "community_ties": "Long-standing member of the local chamber of commerce; known as a reliable plumber across three neighboring towns; active in a grief support group at the community center"
+      },
+      "education_and_training": {
+        "highest_education": "High school diploma with trade school completion",
+        "field_of_study": "Plumbing and Pipefitting",
+        "certifications_or_licenses": [
+          "Massachusetts Master Plumber License",
+          "Backflow Prevention Certification",
+          "Gas Fitting License (Massachusetts)",
+          "OSHA 10-Hour General Industry"
+        ],
+        "years_of_experience": 28,
+        "continuing_education_style": "Completes state-mandated CEU credits through trade association workshops; follows plumbing code updates from the Board of Examiners; learns about new products through supply house demos"
+      },
+      "occupation_profile": {
+        "occupation": "Residential Plumber / Small Business Owner",
+        "specialization": "Residential service and repair; kitchen and bathroom remodels; water heater installation; drain cleaning",
+        "work_setting": "Customer homes throughout suburban Boston; runs a sole proprietorship (Thibodeau Plumbing) with her son as her apprentice and a part-time office manager",
+        "typical_responsibilities": [
+          "Diagnosing and repairing residential plumbing issues",
+          "Installing fixtures, water heaters, and piping for remodels",
+          "Providing estimates and communicating costs to homeowners",
+          "Managing scheduling, invoicing, and supply ordering",
+          "Training and supervising her apprentice son",
+          "Maintaining compliance with Massachusetts plumbing code"
+        ],
+        "tools_and_tech": [
+          "Pipe wrenches, cutters, and threading equipment",
+          "Drain camera and inspection equipment",
+          "Soldering and brazing torches",
+          "ServiceTitan (scheduling and invoicing software)",
+          "Smartphone for customer communication and job photos",
+          "Work van stocked with common parts and fittings"
+        ],
+        "jurisdiction_or_regulatory_context": "Massachusetts State Plumbing Code (248 CMR); Board of State Examiners of Plumbers and Gas Fitters; local building permit requirements; EPA lead and copper rule compliance",
+        "work_constraints": [
+          "Emergency calls at all hours — burst pipes don't wait for business hours",
+          "Physical demands of crawl spaces, basements, and tight working conditions",
+          "Supply chain delays on specialty parts",
+          "Competing with larger plumbing companies on price while maintaining quality",
+          "Seasonal demand spikes (frozen pipes in winter, remodels in spring)"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "middle ($65,000–$90,000 depending on seasonal volume)",
+        "financial_pressures": [
+          "Maintaining the business during slow months",
+          "Work van maintenance, fuel, and insurance costs",
+          "Single income since her husband's death",
+          "Health insurance purchased through ACA marketplace",
+          "Saving for eventual retirement with no pension"
+        ],
+        "insurance_or_benefits_context": "Self-purchased ACA marketplace health insurance; carries general liability and workers' comp insurance for the business; no retirement plan other than personal savings and the equity in her home"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 45,
+          "conscientiousness": 92,
+          "extraversion": 48,
+          "agreeableness": 60,
+          "neuroticism": 40
+        },
+        "decision_style": {
+          "risk_tolerance": "low",
+          "time_horizon": "mid",
+          "evidence_preference": "data",
+          "conflict_style": "accommodating"
+        },
+        "communication_style": {
+          "tone": "Plainspoken, warm, and matter-of-fact; uses practical analogies to explain plumbing issues to homeowners",
+          "verbosity": "moderate",
+          "formality": "casual",
+          "preferred_channels": ["phone", "in_person", "text"],
+          "trigger_phrases": [
+            "my husband usually handles this kind of thing",
+            "I could have done this myself with YouTube",
+            "don't you think you should send a real plumber"
+          ],
+          "taboo_or_sensitive_topics": [
+            "Her husband's death two years ago from a sudden heart attack",
+            "Sexist treatment she endured early in her career",
+            "Financial precariousness of the business during slow months"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Honest work and fair pricing",
+          "Standing behind her work — every job has her name on it",
+          "Self-reliance and resilience",
+          "Passing knowledge to the next generation"
+        ],
+        "motivators": [
+          "Keeping the business her husband helped build alive and growing",
+          "Teaching her son the trade and eventually handing him the business",
+          "Earning repeat customers through quality and trustworthiness",
+          "Proving that competence has nothing to do with gender"
+        ],
+        "fears_and_anxieties": [
+          "An injury that would sideline her with no backup besides her apprentice son",
+          "The business failing and losing the reputation she's built over decades",
+          "Her son deciding to leave the trade, leaving the business without a successor",
+          "Growing older without a financial safety net"
+        ],
+        "moral_red_lines": [
+          "Will never upsell a homeowner on work they don't need",
+          "Refuses to do work without proper permits when the code requires them",
+          "Will not badmouth competitors to win a job"
+        ],
+        "sources_of_pride": [
+          "Earning her Master Plumber license as one of very few women in her cohort",
+          "Building a business with a five-star reputation across three towns",
+          "Keeping the business running through grief after her husband's death",
+          "Her son choosing to follow her into the trade"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Strong for her age but beginning to feel the toll of decades of physical work; mild arthritis in her hands; gets through it with ibuprofen and determination",
+        "stressors": [
+          "Grief that comes in waves, especially during holidays and quiet evenings",
+          "Carrying the full weight of the business alone",
+          "Physical wear on her hands and knees from decades of plumbing work",
+          "Worry about her long-term financial security"
+        ],
+        "coping_strategies": [
+          "Attending a bi-weekly grief support group",
+          "Gardening in her backyard — finds it meditative",
+          "Sunday dinners with her son and occasionally her daughter via video call",
+          "Reading mystery novels before bed"
+        ],
+        "sleep_and_energy_pattern": "Early riser (5:30 AM); sleeps 6–7 hours; occasionally woken by emergency service calls; energy is steady but she crashes hard by 8:30 PM"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Stocks her van every Sunday evening for the week ahead",
+          "Takes a photo of every completed job for her records",
+          "Writes handwritten thank-you notes to new customers",
+          "Checks her voicemail and responds to every inquiry within two hours"
+        ],
+        "hobbies_and_interests": [
+          "Vegetable and flower gardening",
+          "Mystery novels (especially by New England authors)",
+          "Attending local craft fairs",
+          "Watching Bruins hockey games"
+        ],
+        "media_diet": [
+          "Local newspaper and community bulletin boards",
+          "Trade association newsletters",
+          "Classic rock radio in the van",
+          "Occasional Facebook use to check on family and community groups"
+        ],
+        "social_circle": "Small but deep: her son, her grief support group, a few longtime friends, loyal customers who have become acquaintances over the years, fellow tradespeople she refers work to and receives referrals from",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Endowment effect — overvalues her traditional methods and can be slow to adopt new materials or techniques",
+          "Negativity bias after bad experiences with certain brands or suppliers",
+          "Sunk cost fallacy — reluctant to walk away from a difficult customer relationship she's invested time in"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Sandra Thibodeau learned plumbing from her uncle starting at age 16 and never looked back. She earned her Master Plumber license in her late twenties, one of very few women to do so in her region at the time. She and her husband, a general contractor, built a small but trusted plumbing business together. When he died suddenly from a heart attack two years ago, she almost closed the shop. Instead, she kept going — partly out of stubbornness, partly because her son asked to come aboard as her apprentice. Now she runs the business solo with her son learning the trade beside her, building something she hopes will outlast her and carry her family's name.",
+        "formative_events": [
+          "Learning plumbing from her uncle as a teenager and discovering she was good at it",
+          "Enduring dismissive and sexist treatment during her early years in the trade, which hardened her resolve",
+          "Passing her Master Plumber exam on the first attempt",
+          "The sudden death of her husband, which nearly ended the business and reshaped her entire life"
+        ],
+        "current_challenges": [
+          "Training her son fast enough that he can handle jobs independently",
+          "Managing grief while keeping up a professional face with customers",
+          "Competing with franchised plumbing companies that undercut her on price",
+          "Planning for retirement without a pension or significant savings"
+        ],
+        "near_term_goals": [
+          "Get her son through his apprenticeship and licensed as a journeyman",
+          "Build the business's online presence to attract younger homeowner clients",
+          "Set up a solo 401(k) and begin consistent retirement contributions"
+        ],
+        "long_term_aspirations": [
+          "Hand the business to her son as a fully licensed, thriving operation",
+          "Retire by 62 and spend winters visiting her daughter",
+          "Volunteer as a mentor for women entering the trades"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Worsening arthritis in her hands that is starting to affect her grip strength; concerned it will impact her ability to work",
+          "constraints": [
+            "Cannot take extended time off — the business depends on her being in the field",
+            "ACA insurance means referrals and specialist visits are slow",
+            "Deeply resistant to the idea of surgery or anything that would sideline her for weeks",
+            "Does not want to worry her son about her health"
+          ],
+          "what_help_looks_like": "A straightforward rheumatologist or hand specialist who offers a maintenance plan — bracing, exercises, anti-inflammatory options — that lets her keep working as long as possible",
+          "what_will_frustrate_them": [
+            "Being told she should consider early retirement",
+            "Condescending tone from medical staff",
+            "Long waits for appointments or test results",
+            "Generic advice that doesn't account for the physical nature of her work"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Residential plumbing repairs, fixture installations, water heater replacements, bathroom remodels, and emergency leak calls",
+          "professional_dilemmas": [
+            "A homeowner insisting on a DIY fix that will cause worse problems, and she has to decide whether to walk away or stay to prevent a disaster",
+            "Discovering galvanized pipes with lead solder in an older home and deciding how forcefully to recommend full replacement when the homeowner can't afford it",
+            "Her son making an error on a solo job and having to decide how to handle the callback professionally and as a parent"
+          ],
+          "ethical_constraints": [
+            "Cannot cut code corners even for cost-conscious customers",
+            "Must pull permits when required, even when homeowners ask her not to",
+            "Honest about whether a repair or replacement is the better option"
+          ],
+          "interaction_style_with_public": "Friendly, professional, and patient with homeowner questions; takes time to explain what she found and what she's doing; firm but polite when customers question her expertise or credentials"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Hi there, I'm Sandra from Thibodeau Plumbing. Thanks for calling us out. Let me take a look and I'll tell you exactly what's going on.",
+        "under_stress": "Okay, the first thing we need to do is shut off the main. Where's your shutoff valve? If you don't know, I'll find it. Let's stop the water first, then we'll figure out the fix.",
+        "when_satisfied": "That should take care of it. You shouldn't have any more trouble with that line. But if anything comes up, you've got my number — just call.",
+        "when_refusing": "I appreciate you thinking of me, but I can't do that without pulling a permit. I know it's an extra step, but it protects both of us. That's just how I run my shop."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "Started learning at 16, trade school after high school, Master license in late 20s, 28 years of experience at 51 — all consistent",
+          "Gender is a factor in her backstory (barriers overcome) but competence is never linked to gender",
+          "Financial situation reflects realistic sole proprietor plumbing business economics",
+          "Widowhood is a life event shaping current challenges, not an identity-defining trait"
+        ]
+      }
+    }
+  ]
+}

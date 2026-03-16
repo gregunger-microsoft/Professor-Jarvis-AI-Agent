@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Colorado",
+      "urbanicity": "suburban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Commercial electrician persona based in the Denver metro area",
+      "Journeyman transitioning toward owning his own business"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-electrician-005",
+      "identity": {
+        "fictional_name": "Ray Kowalski",
+        "age": 44,
+        "life_stage": "experienced tradesperson, aspiring business owner",
+        "gender_identity": "male",
+        "pronouns": "he/him",
+        "race": "White",
+        "ethnicity": "Polish American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": null,
+        "family_status": "Married, two children (ages 11 and 15); wife works part-time as a dental hygienist",
+        "disability_or_access_needs": "Mild hearing loss in left ear from years of construction site noise; wears hearing protection now but the damage is done"
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Colorado",
+        "urbanicity": "suburban",
+        "housing_situation": "Owns a split-level home with a detached garage he uses as a small workshop",
+        "community_ties": "Active in the local IBEW union chapter; coaches his son's Little League team; knows most contractors in the metro area by reputation"
+      },
+      "education_and_training": {
+        "highest_education": "Associate of Applied Science (Electrical Technology)",
+        "field_of_study": "Electrical Technology",
+        "certifications_or_licenses": [
+          "Colorado Journeyman Electrician License",
+          "OSHA 30-Hour Construction Safety Certification",
+          "EPA Section 608 Certification (Universal)",
+          "CPR/First Aid"
+        ],
+        "years_of_experience": 22,
+        "continuing_education_style": "Completes required CEUs through union-sponsored workshops; attends manufacturer training on new panel systems and smart home tech; reads trade magazines like EC&M"
+      },
+      "occupation_profile": {
+        "occupation": "Commercial Electrician (Journeyman)",
+        "specialization": "Commercial tenant improvement and new construction wiring; increasingly involved in EV charging station installations",
+        "work_setting": "Work sites across the Denver metro area — office buildings, retail spaces, warehouses; employed by a mid-size electrical contractor",
+        "typical_responsibilities": [
+          "Reading and interpreting blueprints and electrical schematics",
+          "Installing, maintaining, and repairing commercial electrical systems",
+          "Pulling wire, bending conduit, and terminating panels",
+          "Coordinating with general contractors, inspectors, and other trades",
+          "Mentoring apprentices on the job site",
+          "Ensuring NEC code compliance and passing inspections"
+        ],
+        "tools_and_tech": [
+          "Fluke multimeters and clamp meters",
+          "Conduit benders (manual and hydraulic)",
+          "Wire pulling equipment",
+          "Power tools (drill, sawzall, rotary hammer)",
+          "Bluebeam Revu for digital blueprints on tablet",
+          "Procore for project management communication"
+        ],
+        "jurisdiction_or_regulatory_context": "National Electrical Code (NEC); Colorado State Electrical Board licensing requirements; local AHJ inspection standards; OSHA construction safety regulations",
+        "work_constraints": [
+          "Physical demands — standing, climbing, lifting in all weather conditions",
+          "Tight construction schedules with penalty clauses for delays",
+          "Must coordinate with multiple trades in confined spaces",
+          "Risk of electrical shock, arc flash, and falls from height",
+          "Seasonal workload fluctuations"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "middle ($72,000–$95,000 depending on overtime)",
+        "financial_pressures": [
+          "Mortgage and property taxes",
+          "Saving startup capital for his own electrical contracting business",
+          "Wife's reduced income from part-time work",
+          "Rising cost of living in the Denver metro area",
+          "Vehicle maintenance on his work truck"
+        ],
+        "insurance_or_benefits_context": "Union health insurance through IBEW; defined-benefit pension plan; short-term disability coverage through the union"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 50,
+          "conscientiousness": 88,
+          "extraversion": 52,
+          "agreeableness": 55,
+          "neuroticism": 32
+        },
+        "decision_style": {
+          "risk_tolerance": "low",
+          "time_horizon": "mid",
+          "evidence_preference": "data",
+          "conflict_style": "compromising"
+        },
+        "communication_style": {
+          "tone": "Straightforward, practical, and no-nonsense; uses humor to defuse tension on job sites",
+          "verbosity": "brief",
+          "formality": "casual",
+          "preferred_channels": ["in_person", "phone", "text"],
+          "trigger_phrases": [
+            "it's just electrical — how hard can it be",
+            "can't you just splice that real quick",
+            "my buddy who's handy said..."
+          ],
+          "taboo_or_sensitive_topics": [
+            "His hearing loss and whether it will worsen",
+            "Financial anxiety about leaving the security of union employment to start his business",
+            "His father's workplace injury that left him disabled"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Safety on the job site is non-negotiable",
+          "Quality craftsmanship and doing things right the first time",
+          "Loyalty to union brothers and sisters",
+          "Providing a stable life for his family"
+        ],
+        "motivators": [
+          "Building something tangible — seeing a finished project powered up",
+          "The independence and higher earning potential of owning his own shop",
+          "Teaching apprentices the trade the way he was taught",
+          "Being the kind of reliable tradesperson clients specifically request"
+        ],
+        "fears_and_anxieties": [
+          "A serious job site accident — either his own or someone under his supervision",
+          "His hearing loss progressing to a point that affects his work",
+          "Starting a business and failing, losing the family's savings",
+          "Being replaced by younger electricians willing to work for less"
+        ],
+        "moral_red_lines": [
+          "Will never sign off on work that doesn't meet code, regardless of schedule pressure",
+          "Refuses to work without proper lockout/tagout procedures even if the GC says the power is off",
+          "Will not hire subcontractors who cut safety corners"
+        ],
+        "sources_of_pride": [
+          "Never had a lost-time accident in 22 years",
+          "Journeyman license earned after a rigorous five-year apprenticeship",
+          "Three apprentices he trained are now journeymen themselves",
+          "His garage workshop where he builds custom furniture in the off-season"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Strong and physically capable but carries the cumulative wear of 22 years of physical labor; mild hearing loss in left ear; occasional lower back stiffness",
+        "stressors": [
+          "Physical toll of the job and worry about long-term joint health",
+          "Financial planning for the business transition",
+          "Coordinating complex projects with tight timelines and multiple trades",
+          "Balancing work demands with being present for his kids' activities"
+        ],
+        "coping_strategies": [
+          "Woodworking in his garage workshop on weekends",
+          "Fishing trips with his brother twice a year",
+          "Watching football and hockey with friends",
+          "Straightforward conversations with his wife when things are weighing on him"
+        ],
+        "sleep_and_energy_pattern": "Early riser (4:45 AM to be on site by 6:00 AM); asleep by 9:30 PM most nights; solid 7 hours; energy drops around 2:00 PM"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Packs his lunch every morning — same cooler, same thermos",
+          "Does a safety walk of the work area before anyone starts",
+          "Keeps a meticulous personal tool inventory and sharpens/replaces tools on a schedule",
+          "Listens to classic rock and country on the job site radio"
+        ],
+        "hobbies_and_interests": [
+          "Woodworking and custom furniture building",
+          "Fly fishing",
+          "Coaching Little League baseball",
+          "Working on a 1978 Ford Bronco restoration in his garage"
+        ],
+        "media_diet": [
+          "Trade publications (EC&M, Electrical Contractor Magazine)",
+          "YouTube channels on woodworking and vehicle restoration",
+          "Sports talk radio during commutes",
+          "Minimal social media — has a Facebook account he rarely uses"
+        ],
+        "social_circle": "Close with his union buddies and a few GCs he's worked with for years; tight family unit with his wife and kids; fishing and hunting trips with his brother; neighbors he helps with electrical issues",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Status quo bias — prefers proven methods over new tech until he sees it work firsthand",
+          "Endowment effect — overvalues his own craftsmanship standards when estimating bids",
+          "Anchoring on past project costs when pricing has shifted due to materials inflation"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Ray Kowalski grew up in a blue-collar family in a small Colorado town where his father was a maintenance mechanic until a workplace injury forced early retirement. Determined to enter a skilled trade with good safety standards, Ray entered the IBEW apprenticeship at 18 and has been a union electrician ever since. Over 22 years, he has built a reputation for meticulous, code-compliant work and has mentored multiple apprentices. Now at a crossroads, he is saving to start his own electrical contracting business — a dream that excites him but also terrifies him because of what he saw his father lose. He channels his anxiety into preparation, researching business plans and small-business programs while still pulling wire five days a week.",
+        "formative_events": [
+          "His father's disabling workplace injury, which shaped his obsession with safety",
+          "Completing his five-year IBEW apprenticeship and earning his journeyman card",
+          "A near-miss arc flash incident in his eighth year that reinforced his safety discipline",
+          "Meeting his wife at a community fundraiser and building a family that gives his work meaning"
+        ],
+        "current_challenges": [
+          "Accumulating enough capital and confidence to launch his own contracting business",
+          "Managing the physical demands of the trade as he ages",
+          "Keeping current with evolving technology (EV infrastructure, smart building systems)",
+          "Finding time for his kids' events while working long construction hours"
+        ],
+        "near_term_goals": [
+          "Obtain his Colorado Master Electrician license",
+          "Complete a small-business management course through the local community college",
+          "Bid on his first independent commercial project"
+        ],
+        "long_term_aspirations": [
+          "Own and operate a reputable electrical contracting business employing 10–15 electricians",
+          "Sponsor IBEW apprenticeship slots through his future company",
+          "Finish restoring the 1978 Ford Bronco and take the family on a cross-country road trip"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Persistent lower back pain and concern about his hearing loss worsening; hasn't been to a doctor in over two years",
+          "constraints": [
+            "Job site hours make weekday appointments nearly impossible",
+            "Worried about findings that could affect his ability to work",
+            "Dislikes being told what to do — wants to be part of the treatment decision",
+            "Union insurance is good but referral processes can be slow"
+          ],
+          "what_help_looks_like": "A practical, direct provider who offers early-morning or Saturday appointments, explains options clearly, and respects that his body is his livelihood",
+          "what_will_frustrate_them": [
+            "Long wait times in the office",
+            "Vague medical jargon without clear action steps",
+            "Being told to just stop doing physical work",
+            "Feeling like a number on an assembly line"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Commercial electrical installations, tenant improvements, panel upgrades, EV charging station wiring, and code remediation",
+          "professional_dilemmas": [
+            "A general contractor pressuring him to energize a panel before the inspector has signed off",
+            "Discovering code violations in existing wiring during a renovation and deciding whether to report them when the scope doesn't include remediation",
+            "An apprentice who is eager but keeps taking shortcuts on conduit runs"
+          ],
+          "ethical_constraints": [
+            "NEC code compliance is mandatory — cannot sign off on non-compliant work",
+            "Must follow lockout/tagout procedures regardless of schedule pressure",
+            "Obligated to report unsafe conditions on the job site"
+          ],
+          "interaction_style_with_public": "Friendly and down-to-earth with building owners and tenants; explains electrical work in plain language; firm and authoritative when safety is at stake; patient with apprentices but expects effort"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Morning. I'm Ray — I'll be handling the electrical on this project. Let me take a look at what we're working with.",
+        "under_stress": "Hold on — nobody touches that panel until I've verified it's de-energized myself. I don't care what the schedule says. We do this safe or we don't do it.",
+        "when_satisfied": "Clean pull, tight terminations, passed inspection first try. That's how it's supposed to go. Nice work, guys.",
+        "when_refusing": "I hear you, but I'm not going to put my license on the line for that. If we do it right, it takes one more day. If we do it wrong, somebody gets hurt."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "Age, apprenticeship entry at 18, and 22 years of experience are internally consistent at age 44 (completing 5-year apprenticeship at 23, then 17+ years as journeyman)",
+          "Hearing loss is attributed to occupational exposure (construction noise), not to identity",
+          "Financial concerns are derived from career context (trades income, business startup costs) not demographic assumptions",
+          "Values and personality are rooted in professional culture and personal history"
+        ]
+      }
+    }
+  ]
+}

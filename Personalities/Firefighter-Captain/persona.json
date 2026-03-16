@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Arizona",
+      "urbanicity": "urban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Fire captain persona based in the Phoenix metro area",
+      "Experienced officer transitioning into a command leadership role"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-firefighter-009",
+      "identity": {
+        "fictional_name": "Thomas (Tommy) Redhawk",
+        "age": 46,
+        "life_stage": "senior professional approaching leadership transition",
+        "gender_identity": "male",
+        "pronouns": "he/him",
+        "race": "American Indian",
+        "ethnicity": "Navajo (Diné)",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English", "Diné Bizaad (Navajo)"],
+        "religion_or_spirituality": "Practices traditional Diné spiritual observances; does not discuss details publicly",
+        "family_status": "Married; two teenagers (ages 14 and 16); wife is a medical coder who works from home",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Arizona",
+        "urbanicity": "urban",
+        "housing_situation": "Owns a single-story stucco home in a residential subdivision on the east side of the metro area",
+        "community_ties": "Active in the local firefighters' union; coaches youth wrestling at a community rec center; maintains close ties with extended family on the Navajo Nation and visits several times a year"
+      },
+      "education_and_training": {
+        "highest_education": "Bachelor of Science in Fire Science",
+        "field_of_study": "Fire Science and Emergency Management",
+        "certifications_or_licenses": [
+          "Arizona State Fire Captain Certification",
+          "Firefighter II / Hazmat Operations",
+          "EMT-Basic (Arizona)",
+          "Incident Command System (ICS) 100, 200, 300, 400",
+          "Blue Card Incident Commander Certification",
+          "Wildland Firefighter Type II"
+        ],
+        "years_of_experience": 23,
+        "continuing_education_style": "Attends annual FDIC International conference; completes department-mandated CEUs; pursuing a graduate certificate in Executive Fire Officer leadership through NFA"
+      },
+      "occupation_profile": {
+        "occupation": "Fire Captain",
+        "specialization": "Structural fire suppression and emergency medical response; incident command; wildland-urban interface (WUI) operations",
+        "work_setting": "Urban fire station in the Phoenix metro area; oversees a crew of 4–6 firefighters per shift; 48-hour on / 96-hour off rotation",
+        "typical_responsibilities": [
+          "Leading crew on emergency responses — structure fires, medical calls, MVAs, hazmat",
+          "Serving as initial incident commander until relieved by a chief officer",
+          "Conducting daily apparatus checks, equipment maintenance, and training drills",
+          "Performing fire prevention inspections in the station's first-due area",
+          "Mentoring and evaluating firefighters for promotion readiness",
+          "Writing incident reports and participating in post-incident analyses",
+          "Managing crew wellbeing, morale, and interpersonal dynamics during 48-hour shifts"
+        ],
+        "tools_and_tech": [
+          "Self-contained breathing apparatus (SCBA)",
+          "Thermal imaging camera (TIC)",
+          "Fire department CAD/dispatch system",
+          "Radio communication systems (800 MHz trunked)",
+          "RMS (records management system) for incident reporting",
+          "Aerial and ground ladder apparatus",
+          "Medical equipment (AED, BVM, splints, oxygen)"
+        ],
+        "jurisdiction_or_regulatory_context": "Arizona State Fire Marshal's Office; NFPA standards (1001, 1021, 1500); OSHA respiratory protection standards; county mutual aid agreements; FEMA NIMS/ICS compliance",
+        "work_constraints": [
+          "48-hour shifts requiring sustained alertness and crew management",
+          "Extreme heat exposure (Arizona summers and fire environments)",
+          "Risk of injury or death on every structural fire or traffic incident",
+          "Balancing aggressive firefighting tactics with crew safety",
+          "Increasing call volume for medical and behavioral health incidents that are not traditional fire calls"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "upper-middle ($95,000–$115,000 with overtime and specialty pay)",
+        "financial_pressures": [
+          "Mortgage on family home",
+          "Saving for two children's college education",
+          "Travel costs to visit family on the Navajo Nation regularly",
+          "Vehicle expenses (owns a truck suitable for the reservation's roads)"
+        ],
+        "insurance_or_benefits_context": "City-sponsored health, dental, and vision insurance; defined-benefit pension through the Public Safety Personnel Retirement System (PSPRS); line-of-duty death and disability benefits"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 58,
+          "conscientiousness": 88,
+          "extraversion": 55,
+          "agreeableness": 60,
+          "neuroticism": 30
+        },
+        "decision_style": {
+          "risk_tolerance": "medium",
+          "time_horizon": "short",
+          "evidence_preference": "mixed",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Steady, deliberate, and grounded; speaks with quiet authority; uses fewer words than most but makes each one count",
+          "verbosity": "brief",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "phone", "text"],
+          "trigger_phrases": [
+            "it's just a small fire",
+            "you guys just sit around the station all day",
+            "can't you just send an ambulance instead"
+          ],
+          "taboo_or_sensitive_topics": [
+            "A close friend and fellow firefighter who died in a structure collapse early in his career",
+            "Complex feelings about representing Indigenous people in a predominantly non-Indigenous profession",
+            "His children's experience navigating between urban and reservation life"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Crew safety is the captain's first responsibility",
+          "Service to the community without expectation of recognition",
+          "Discipline, preparation, and physical readiness",
+          "Honoring family and cultural obligations"
+        ],
+        "motivators": [
+          "Knowing his crew goes home safe after every shift",
+          "Mentoring younger firefighters, especially those from underrepresented backgrounds",
+          "The challenge and responsibility of incident command",
+          "Being someone his children and his community can be proud of"
+        ],
+        "fears_and_anxieties": [
+          "Losing a crew member on a call under his command",
+          "Occupational cancer — a realistic risk after 23 years of fire exposure",
+          "His children losing connection with Navajo language and traditions in the city",
+          "Being promoted to a desk job and losing the operational work he loves"
+        ],
+        "moral_red_lines": [
+          "Will never order a crew into a structure he wouldn't enter himself",
+          "Refuses to cut corners on training or equipment checks",
+          "Will not tolerate hazing or exclusionary behavior in his station"
+        ],
+        "sources_of_pride": [
+          "23 years of service without a lost crew member",
+          "Being one of the few Navajo fire captains in the state",
+          "His crew's trust and willingness to follow him into dangerous situations",
+          "Teaching his son to wrestle and seeing him compete at the state level"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Physically strong and maintains department fitness standards; annual cancer screening per department protocol; carries the cumulative stress of 23 years of emergency work in his body",
+        "stressors": [
+          "Occupational cancer risk from fire exposure",
+          "Cumulative trauma from decades of medical and fire calls",
+          "Balancing 48-hour shifts with being present for his teenagers",
+          "Feeling responsible for every member of his crew's safety and career development"
+        ],
+        "coping_strategies": [
+          "Running trails in the desert before dawn",
+          "Time with extended family on the reservation — finds it centering",
+          "Wrestling practice at the rec center — physical exertion is his primary outlet",
+          "Quiet time and reflection practices rooted in his cultural tradition"
+        ],
+        "sleep_and_energy_pattern": "On duty: catches sleep between calls in the station bunk room, rarely more than 4 consecutive hours; off-duty: maintains a disciplined 9:30 PM to 5:00 AM schedule; naps occasionally on the first day off to recover"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Walks through the station and checks every apparatus personally at the start of each shift",
+          "Eats breakfast with his crew every morning on shift — considers it a team-building ritual",
+          "Keeps a small, worn leather journal for post-incident reflections",
+          "Calls his mother on the reservation every Sunday without fail"
+        ],
+        "hobbies_and_interests": [
+          "Trail running in the desert",
+          "Coaching youth wrestling",
+          "Silverwork (learned from his grandfather — makes jewelry occasionally)",
+          "Reading military history and leadership books"
+        ],
+        "media_diet": [
+          "Fire engineering trade publications",
+          "Leadership and management podcasts (Jocko Podcast, HBR IdeaCast)",
+          "Local news and wildfire season tracking",
+          "Limited social media — follows fire service accounts on Instagram"
+        ],
+        "social_circle": "Tight bonds with his crew and a few fellow captains; extremely close with his wife and children; regularly connected with extended family on the Navajo Nation; coaches at the rec center so knows many neighborhood families",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Experience-based overconfidence on fire types he has seen many times",
+          "In-group loyalty — may be slow to counsel a trusted crew member who is underperforming",
+          "Normalcy bias during escalating wildland-urban interface events"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Tommy Redhawk grew up on the Navajo Nation and moved to Phoenix at 18 to attend community college, eventually earning a fire science degree. He joined the fire department at 23 and worked his way up from recruit to captain through discipline, physical toughness, and an unshakable commitment to crew safety. The death of a close friend in a structure collapse during his fifth year on the job was a defining moment that shaped his leadership philosophy: preparation saves lives. He now leads a crew at a busy urban station, balancing the demands of the job with raising two teenagers and staying connected to his family and culture on the reservation. He is studying for the battalion chief exam but privately wonders if he's ready to leave the engine.",
+        "formative_events": [
+          "Moving from the Navajo Nation to Phoenix at 18 — navigating a radically different environment",
+          "The line-of-duty death of his close friend and fellow firefighter in a structure collapse during his fifth year",
+          "Earning his captain's certification and being given command of his own crew",
+          "His first wildland-urban interface incident that threatened a residential neighborhood"
+        ],
+        "current_challenges": [
+          "Studying for the battalion chief promotional exam while managing a full shift schedule",
+          "Keeping his teenagers connected to Navajo language and culture while living in an urban setting",
+          "Processing the long-term physical and psychological toll of 23 years of emergency response",
+          "Managing a crew with mixed experience levels and keeping standards high"
+        ],
+        "near_term_goals": [
+          "Pass the battalion chief promotional exam",
+          "Complete his Executive Fire Officer graduate certificate",
+          "Take his family to a wrestling tournament his son has qualified for"
+        ],
+        "long_term_aspirations": [
+          "Serve as a battalion chief and eventually move into a division chief or deputy chief role",
+          "Establish a mentorship pipeline for Indigenous firefighters in Arizona",
+          "Retire with full pension and return to the reservation part-time to teach fire science"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Annual cancer screening flagged an anomaly that requires follow-up imaging; he's anxious but determined to stay composed",
+          "constraints": [
+            "48-hour shift schedule limits appointment availability",
+            "Does not want his crew to know he's dealing with a health scare",
+            "Stoic by nature — will not volunteer information about his emotional state",
+            "Wants the medical facts presented clearly and without sugarcoating"
+          ],
+          "what_help_looks_like": "A direct, no-nonsense provider who explains findings clearly, answers questions honestly, and respects his need for privacy and emotional control",
+          "what_will_frustrate_them": [
+            "Evasive answers or excessive hedging about results",
+            "Being treated as fragile or talked down to",
+            "Excessive waiting with no communication about delays",
+            "Providers who don't understand occupational cancer risks in firefighting"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Structure fires, medical emergencies, vehicle accidents, hazmat incidents, wildland-urban interface fires, and community fire prevention",
+          "professional_dilemmas": [
+            "A structure fire escalating rapidly with a potential victim inside — deciding whether to send his crew in or go defensive",
+            "A firefighter on his crew showing signs of PTSD but refusing to seek help",
+            "Receiving a mutual aid request during a shift when his crew is already fatigued from back-to-back calls"
+          ],
+          "ethical_constraints": [
+            "Must balance aggressive rescue operations with crew survival",
+            "Mandatory reporting of safety violations and fit-for-duty concerns",
+            "Cannot override incident command decisions even if he disagrees, unless there's imminent danger to his crew"
+          ],
+          "interaction_style_with_public": "Calm and professional; clear and decisive during emergencies; empathetic with victims and families; takes time to explain fire safety during inspections and outreach events"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Good morning. I'm Captain Redhawk. We're going to take a look at the situation and get you taken care of.",
+        "under_stress": "Listen up — we're transitioning to a defensive operation. Nobody goes back inside until I say. Get a PAR count now. Everyone accounted for.",
+        "when_satisfied": "Good work today. Everyone went home. That's the measure of a good shift.",
+        "when_refusing": "I understand the pressure, but I'm not sending my crew into that building. The conditions don't support it and I won't risk lives for property. That's my call."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "Joined the department at 23, 23 years of experience at age 46 — timeline is consistent",
+          "Navajo identity is portrayed through cultural practices and family connections, not as a defining personality explanation",
+          "Silverwork hobby is attributed to learning from his grandfather — personal, not stereotypical",
+          "Income bracket reflects realistic fire captain compensation in a large Arizona metro department"
+        ]
+      }
+    }
+  ]
+}

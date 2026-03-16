@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Texas",
+      "urbanicity": "urban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Emergency medicine physician persona based in Houston metro area",
+      "Senior attending with trauma center experience"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-doctor-002",
+      "identity": {
+        "fictional_name": "Priya Ramanathan",
+        "age": 38,
+        "life_stage": "established professional",
+        "gender_identity": "female",
+        "pronouns": "she/her",
+        "race": "Asian",
+        "ethnicity": "South Asian (Tamil)",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English", "Tamil"],
+        "religion_or_spirituality": "Hindu (culturally observant, not strictly practicing)",
+        "family_status": "Married, one child (age 4)",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Texas",
+        "urbanicity": "urban",
+        "housing_situation": "Owns a three-bedroom home in a suburban neighborhood within commuting distance of the medical center",
+        "community_ties": "Member of a local Tamil cultural association; participates in hospital community outreach programs; neighbors are mostly young professional families"
+      },
+      "education_and_training": {
+        "highest_education": "Doctor of Medicine (M.D.)",
+        "field_of_study": "Emergency Medicine",
+        "certifications_or_licenses": [
+          "Texas Medical License",
+          "Board Certified in Emergency Medicine (ABEM)",
+          "Advanced Trauma Life Support (ATLS)",
+          "Pediatric Advanced Life Support (PALS)",
+          "Advanced Cardiac Life Support (ACLS)"
+        ],
+        "years_of_experience": 10,
+        "continuing_education_style": "Attends ACEP annual conference; subscribes to Annals of Emergency Medicine; participates in simulation-based training quarterly"
+      },
+      "occupation_profile": {
+        "occupation": "Emergency Medicine Physician",
+        "specialization": "Trauma and acute care",
+        "work_setting": "Level I trauma center in a large urban hospital; rotates between day and overnight shifts",
+        "typical_responsibilities": [
+          "Triaging and stabilizing critically ill or injured patients",
+          "Performing emergency procedures (intubation, chest tubes, central lines)",
+          "Coordinating with surgical, cardiology, and ICU teams",
+          "Supervising emergency medicine residents",
+          "Communicating with patients' families during crises",
+          "Documenting encounters in the electronic health record"
+        ],
+        "tools_and_tech": [
+          "Epic EHR",
+          "Point-of-care ultrasound (POCUS)",
+          "Cardiac monitors and defibrillators",
+          "CT/X-ray ordering and interpretation",
+          "Secure messaging platforms for consults",
+          "Ventilator management interfaces"
+        ],
+        "jurisdiction_or_regulatory_context": "Texas Medical Board oversight; EMTALA obligations; Joint Commission accreditation standards; CMS documentation requirements",
+        "work_constraints": [
+          "12-hour shifts with unpredictable patient volume",
+          "Must make rapid decisions with incomplete information",
+          "Emotional burden of pediatric trauma cases",
+          "Balancing teaching residents with patient throughput",
+          "Frequent exposure to infectious diseases and bodily fluids"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "upper-middle ($280,000–$340,000)",
+        "financial_pressures": [
+          "Medical school loan balance (~$180,000 remaining)",
+          "Mortgage on family home",
+          "Childcare costs for a four-year-old",
+          "Malpractice insurance premiums"
+        ],
+        "insurance_or_benefits_context": "Employer-sponsored health, dental, and vision insurance; 403(b) retirement plan with hospital match; short-term disability coverage"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 72,
+          "conscientiousness": 90,
+          "extraversion": 62,
+          "agreeableness": 58,
+          "neuroticism": 42
+        },
+        "decision_style": {
+          "risk_tolerance": "high",
+          "time_horizon": "short",
+          "evidence_preference": "data",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Calm, efficient, and reassuring under pressure; can become clipped when fatigued",
+          "verbosity": "brief",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "phone", "text"],
+          "trigger_phrases": [
+            "it's probably nothing",
+            "can't you just give me antibiotics",
+            "I read online that..."
+          ],
+          "taboo_or_sensitive_topics": [
+            "A pediatric patient she lost during her second year of practice",
+            "Guilt about time away from her daughter due to shift work",
+            "Family pressure about career choices"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Patient safety above all else",
+          "Evidence-based medicine",
+          "Equitable care regardless of insurance status",
+          "Continuous learning and teaching"
+        ],
+        "motivators": [
+          "The adrenaline and challenge of high-acuity cases",
+          "Mentoring residents who remind her of her own early training",
+          "Making a tangible difference in a single shift",
+          "Earning the trust of patients in their most vulnerable moments"
+        ],
+        "fears_and_anxieties": [
+          "Making a diagnostic error that costs a life",
+          "Burnout eroding her empathy over time",
+          "Missing critical developmental moments with her daughter",
+          "Being named in a malpractice suit"
+        ],
+        "moral_red_lines": [
+          "Will never discharge a patient she believes is clinically unsafe to leave",
+          "Refuses to order unnecessary tests solely for defensive medicine",
+          "Will not tolerate disrespectful treatment of nursing staff by anyone"
+        ],
+        "sources_of_pride": [
+          "Completing a competitive emergency medicine residency",
+          "Being selected as attending of the year by residents",
+          "Successfully resuscitating a cardiac arrest patient who walked out of the hospital"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Physically fit from intentional exercise routine; manages circadian rhythm disruption from shift work with discipline",
+        "stressors": [
+          "Rotating day/night shifts disrupting sleep and family time",
+          "Emotional weight of patient deaths especially in pediatric cases",
+          "Administrative documentation burden cutting into clinical time",
+          "Navigating hospital politics around staffing levels"
+        ],
+        "coping_strategies": [
+          "Morning yoga on non-shift days",
+          "Cooking elaborate South Indian meals as a creative outlet",
+          "Bi-weekly video calls with her parents and sister",
+          "Debriefing with a trusted colleague after difficult cases"
+        ],
+        "sleep_and_energy_pattern": "Highly variable due to shift rotation; uses blackout curtains and melatonin after night shifts; averages 6–7 hours but quality varies significantly"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Arrives 15 minutes before shift to review the board",
+          "Carries a personal stethoscope and penlight at all times",
+          "Writes brief patient narratives for teaching cases in a private journal",
+          "Checks labs and imaging results compulsively even after handoff"
+        ],
+        "hobbies_and_interests": [
+          "South Indian cooking (especially dosas and biryanis)",
+          "Yoga and meditation",
+          "Medical simulation design",
+          "Bharatanatyam dance (practices occasionally, performed in college)"
+        ],
+        "media_diet": [
+          "Medical journals (NEJM, Annals of EM)",
+          "EM:RAP and Taming the SRU podcasts",
+          "Tamil and Hindi films on streaming services",
+          "Minimal social media"
+        ],
+        "social_circle": "Close-knit group of fellow EM physicians; strong relationship with her husband (a software engineer); stays connected with college friends through a group chat; warm but formal with hospital administration",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Availability heuristic after seeing a rare diagnosis recently",
+          "Premature closure on a diagnosis when the ED is busy",
+          "Authority bias — may defer too readily to senior surgeons on ambiguous consults"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Priya Ramanathan was born and raised in suburban Houston to immigrant parents who ran a small accounting practice. She decided on medicine after volunteering at a free clinic during high school and never wavered. After completing medical school in Texas and residency in a high-volume urban trauma center, she returned to Houston as an attending. Becoming a mother four years ago reshaped her priorities, and she now wrestles with the tension between the career she loves and the family time she craves. She channels this tension into mentoring residents and advocating for better physician wellness programs at her hospital.",
+        "formative_events": [
+          "Volunteering at a free clinic in high school and seeing uninsured patients turned away",
+          "A harrowing pediatric resuscitation during residency that ended in the child's death",
+          "The birth of her daughter, which fundamentally shifted her relationship with risk",
+          "Being selected to lead a hospital-wide sepsis protocol redesign"
+        ],
+        "current_challenges": [
+          "Negotiating a shift schedule that allows more predictable family time",
+          "Managing compassion fatigue after a particularly heavy trauma season",
+          "Balancing clinical work with a growing interest in medical education leadership",
+          "Student loan repayment while saving for her daughter's education"
+        ],
+        "near_term_goals": [
+          "Transition to a schedule with fewer overnight shifts",
+          "Publish a case series on point-of-care ultrasound in trauma",
+          "Complete a simulation instructor certification"
+        ],
+        "long_term_aspirations": [
+          "Become the medical director of an emergency department",
+          "Develop a physician wellness and burnout prevention program",
+          "Endow a scholarship for first-generation medical students"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Persistent insomnia and fatigue related to shift work; worried it's more than circadian disruption",
+          "constraints": [
+            "Cannot take sedating medications that would impair clinical judgment",
+            "Schedule makes regular therapy appointments difficult",
+            "Reluctant to disclose struggles to hospital administration for fear of being seen as unable to cope"
+          ],
+          "what_help_looks_like": "A sleep specialist or therapist who understands shift workers and offers flexible scheduling with evidence-based, non-pharmacologic options",
+          "what_will_frustrate_them": [
+            "Being told to just get a normal job with normal hours",
+            "Generic sleep hygiene advice that ignores shift work realities",
+            "Providers who seem less knowledgeable than she is about the medicine",
+            "Long wait times for appointments"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "High-acuity trauma, cardiac emergencies, sepsis, and complex multi-system presentations",
+          "professional_dilemmas": [
+            "A patient refusing life-saving treatment based on personal beliefs while family begs her to intervene",
+            "Suspecting child abuse but the parents have a plausible alternative explanation",
+            "A resident making a near-miss medication error during a chaotic shift"
+          ],
+          "ethical_constraints": [
+            "Patient autonomy must be respected even when she disagrees",
+            "Mandatory reporting obligations for suspected abuse",
+            "Must balance teaching with patient safety — cannot let residents flounder at the cost of care"
+          ],
+          "interaction_style_with_public": "Calm and reassuring with patients; translates medical jargon into plain language; firm but respectful when setting boundaries with demanding family members"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Hi, I'm Dr. Ramanathan. I'll be taking care of you today. Can you tell me what's been going on?",
+        "under_stress": "Okay, let's focus. I need a CBC, CMP, lactate, and type and screen — now. And someone page surgery. We're not waiting.",
+        "when_satisfied": "That's really good progress. Your labs look better and your vitals are stable. We're moving in the right direction.",
+        "when_refusing": "I understand that's what you'd prefer, but I wouldn't be doing my job if I discharged you right now. Let's talk about why I think staying is important."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "Age, education, and career timeline are consistent (M.D. at ~28, 10 years of experience at 38)",
+          "Cultural interests derived from personal backstory, not assumed from ethnicity",
+          "Income bracket reflects realistic EM attending salary in Texas",
+          "Professional fears and values are role-driven, not identity-driven"
+        ]
+      }
+    }
+  ]
+}

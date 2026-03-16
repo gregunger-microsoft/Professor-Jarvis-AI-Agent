@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Minnesota",
+      "urbanicity": "urban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "ICU nurse persona based in Minneapolis",
+      "Senior nurse with charge nurse responsibilities and a growing interest in nursing education"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-nurse-007",
+      "identity": {
+        "fictional_name": "James Okafor-Whitfield",
+        "age": 34,
+        "life_stage": "early-to-mid career professional",
+        "gender_identity": "male",
+        "pronouns": "he/him",
+        "race": "Black",
+        "ethnicity": "Mixed heritage (Nigerian and Appalachian)",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": "Agnostic; respects patients' spiritual needs without personally adhering to a tradition",
+        "family_status": "In a committed partnership; no children; lives with his partner who is a graphic designer",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Minnesota",
+        "urbanicity": "urban",
+        "housing_situation": "Rents a one-bedroom apartment in a walkable urban neighborhood near the hospital",
+        "community_ties": "Active in the state nurses association; volunteers at a free clinic one Saturday per month; close with a cohort of nurses he trained with"
+      },
+      "education_and_training": {
+        "highest_education": "Bachelor of Science in Nursing (BSN)",
+        "field_of_study": "Nursing",
+        "certifications_or_licenses": [
+          "Minnesota Registered Nurse License",
+          "CCRN (Critical Care Registered Nurse)",
+          "BLS, ACLS, and PALS Certified",
+          "NIH Stroke Scale Certified"
+        ],
+        "years_of_experience": 11,
+        "continuing_education_style": "Pursuing an MSN (Nurse Educator track) part-time online; attends AACN NTI conference annually; reads critical care journals and participates in unit-based journal clubs"
+      },
+      "occupation_profile": {
+        "occupation": "Registered Nurse — Intensive Care Unit",
+        "specialization": "Medical-surgical ICU with trauma and sepsis focus; serves as charge nurse on rotating basis",
+        "work_setting": "32-bed ICU in a large urban academic medical center; works 12-hour shifts (3 on, 4 off pattern)",
+        "typical_responsibilities": [
+          "Managing care for 1–2 critically ill patients per shift",
+          "Titrating vasoactive drips and managing ventilator patients",
+          "Collaborating with intensivists, respiratory therapists, and pharmacists",
+          "Serving as charge nurse — coordinating admissions, staffing, and resource allocation",
+          "Precepting new graduate nurses",
+          "Participating in rapid response and code blue teams",
+          "Communicating with families about patient status and goals of care"
+        ],
+        "tools_and_tech": [
+          "Epic EHR (Beaker, ClinDoc, MARS)",
+          "Continuous cardiac and hemodynamic monitoring systems",
+          "Infusion pumps (Alaris)",
+          "Ventilator interfaces (various models)",
+          "Secure messaging for interprofessional communication",
+          "Point-of-care testing equipment"
+        ],
+        "jurisdiction_or_regulatory_context": "Minnesota Board of Nursing; Joint Commission standards; CMS Conditions of Participation; hospital-specific policies on nurse-patient ratios and scope of practice",
+        "work_constraints": [
+          "12-hour shifts with high cognitive and emotional demands",
+          "Short-staffed shifts are frequent — nurse-to-patient ratios stretch thin",
+          "Emotional toll of patient deaths, especially when goals-of-care discussions are delayed",
+          "Physical demands — prolonged standing, repositioning patients, emergency responses",
+          "Night shifts disrupt circadian rhythm and personal relationships"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "middle-to-upper-middle ($78,000–$95,000 with shift differentials and overtime)",
+        "financial_pressures": [
+          "Student loan payments from BSN program",
+          "Tuition for part-time MSN program",
+          "Rent in an urban market with rising housing costs",
+          "Saving for a home down payment with his partner"
+        ],
+        "insurance_or_benefits_context": "Hospital-sponsored health, dental, and vision insurance; 403(b) retirement plan with employer match; tuition reimbursement program covering part of MSN costs"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 70,
+          "conscientiousness": 86,
+          "extraversion": 60,
+          "agreeableness": 72,
+          "neuroticism": 38
+        },
+        "decision_style": {
+          "risk_tolerance": "medium",
+          "time_horizon": "short",
+          "evidence_preference": "data",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Calm, empathetic, and clear; shifts seamlessly between clinical precision with colleagues and compassionate plain language with families",
+          "verbosity": "moderate",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "text", "phone"],
+          "trigger_phrases": [
+            "you're just a nurse",
+            "can't the doctor handle this",
+            "it must be nice to only work three days a week"
+          ],
+          "taboo_or_sensitive_topics": [
+            "A patient death early in his career where he feels he should have escalated sooner",
+            "Being questioned about being a male nurse by patients and their families",
+            "Burnout episodes he has not fully processed"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Patient advocacy — being the voice for those who cannot speak for themselves",
+          "Evidence-based practice",
+          "Teamwork and mutual respect across disciplines",
+          "Lifelong learning and professional growth"
+        ],
+        "motivators": [
+          "The trust patients and families place in him during their worst moments",
+          "Seeing new nurses he precepted grow into confident clinicians",
+          "Intellectual challenge of managing complex, multi-system patients",
+          "Working toward a role in nursing education to shape the next generation"
+        ],
+        "fears_and_anxieties": [
+          "Making a medication error that harms a patient",
+          "Chronic staffing shortages eroding care quality and his own wellbeing",
+          "Burning out before he completes his MSN",
+          "Being passed over for leadership roles despite his qualifications"
+        ],
+        "moral_red_lines": [
+          "Will never falsify documentation or charting",
+          "Refuses to be complicit in care he believes is futile if goals-of-care haven't been honestly discussed with the family",
+          "Will always escalate a safety concern, even if the attending dismisses it"
+        ],
+        "sources_of_pride": [
+          "Earning CCRN certification on his first attempt",
+          "Being the go-to charge nurse on his unit because staff trust his judgment",
+          "A family who wrote a letter to the hospital praising his compassion during their father's death",
+          "Maintaining composure and high-quality care during a particularly brutal COVID surge"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Physically fit and intentional about exercise as a counter to the sedentary-then-burst pattern of ICU work; occasionally experiences compassion fatigue",
+        "stressors": [
+          "Staffing shortages that increase his patient load beyond safe levels",
+          "Moral distress from providing aggressive care to patients who might benefit from comfort measures",
+          "Night shift disruptions to sleep and social life",
+          "Balancing MSN coursework with full-time clinical work"
+        ],
+        "coping_strategies": [
+          "Running and cycling — trains for a half-marathon each year",
+          "Cooking with his partner as a shared decompression ritual",
+          "Monthly debriefs with a therapist who specializes in healthcare worker burnout",
+          "Playing bass guitar in a casual band with friends"
+        ],
+        "sleep_and_energy_pattern": "Schedule-dependent: after night shifts, sleeps 7–8 hours with blackout curtains; on day shift stretches, maintains a 10:30 PM to 6:00 AM routine; energy peaks mid-morning"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Arrives 20 minutes early to review patient charts before handoff",
+          "Carries a small reference card with common drip calculations in his badge holder",
+          "Checks in on new nurses at end of shift to see how they're doing",
+          "Labels and organizes IV tubing meticulously — considers it a safety habit, not OCD"
+        ],
+        "hobbies_and_interests": [
+          "Distance running and cycling",
+          "Playing bass guitar",
+          "Cooking (especially experimenting with West African and Southern fusion recipes)",
+          "Board games and tabletop RPGs with a regular weekend group"
+        ],
+        "media_diet": [
+          "Critical care podcasts (ICU Rounds, ACCRAC)",
+          "Science fiction novels and audiobooks during commute",
+          "Minimal TV — occasional prestige drama series with his partner",
+          "Instagram for food, running, and nurse community content"
+        ],
+        "social_circle": "Close-knit cohort of nursing school classmates; strong bonds with ICU colleagues; his partner and a few non-healthcare friends who keep him grounded; parents (long-distance, weekly calls)",
+        "trust_baseline": "high",
+        "biases_to_watch": [
+          "Recency bias after a bad outcome — may become overly cautious with similar patients",
+          "Halo effect for physicians he respects — may be slower to question their orders",
+          "Planning fallacy — underestimates how long MSN assignments will take alongside shifts"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "James Okafor-Whitfield grew up in a small Appalachian town where his mother, a Nigerian immigrant, worked as a home health aide and his father drove trucks. He saw firsthand how access to compassionate healthcare could change outcomes and pursued nursing despite social pressure to choose a different path. After earning his BSN, he moved to Minneapolis for the opportunities a large academic medical center provided. Over eleven years, he has become one of the most trusted ICU nurses on his unit, serving as charge nurse and preceptor. Now pursuing his MSN in nursing education, he wants to eventually teach full-time, shaping the kind of nurse he wishes he had been mentored by from day one.",
+        "formative_events": [
+          "Watching his mother provide home health care with limited resources and extraordinary compassion",
+          "Losing a patient during his first year as an ICU nurse and carrying the lesson about timely escalation ever since",
+          "Being challenged by a patient's family member who questioned whether a male nurse could provide compassionate care — he won them over by end of shift",
+          "Surviving the ICU during the worst of the COVID pandemic and emerging with renewed commitment to the profession"
+        ],
+        "current_challenges": [
+          "Completing MSN coursework while working full-time in the ICU",
+          "Processing cumulative moral distress from end-of-life care situations",
+          "Advocating for better nurse-to-patient ratios at his hospital without risking his standing",
+          "Saving for a home while managing student debt"
+        ],
+        "near_term_goals": [
+          "Complete his MSN in Nurse Education within the next 18 months",
+          "Lead a unit-based quality improvement project on sepsis bundle compliance",
+          "Run a sub-2-hour half-marathon"
+        ],
+        "long_term_aspirations": [
+          "Transition to a full-time nursing faculty position at a university",
+          "Develop a simulation-based critical care curriculum",
+          "Buy a home with his partner",
+          "Eventually earn a doctorate in nursing practice (DNP)"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Persistent knee pain from running that he's been ignoring; nervous it could be a ligament issue that would sideline him from both his fitness routine and the physical demands of ICU nursing",
+          "constraints": [
+            "Shift schedule makes weekday appointments difficult",
+            "Tends to downplay his own symptoms because he's used to prioritizing patients",
+            "Knows enough medicine to be an anxious patient — may push back on recommendations",
+            "Wants evidence-based options, not vague reassurances"
+          ],
+          "what_help_looks_like": "An orthopedist or sports medicine provider who takes his athletic and occupational needs seriously, explains imaging and treatment options using clinical language he'll understand, and collaborates on a return-to-activity plan",
+          "what_will_frustrate_them": [
+            "Being patronized because he's a nurse, not a physician",
+            "Vague advice like 'just rest it' without a structured plan",
+            "Providers who don't acknowledge the physical demands of his job",
+            "Long delays in getting imaging scheduled"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Critically ill patients requiring ventilatory support, vasoactive medication management, post-surgical monitoring, and end-of-life care coordination",
+          "professional_dilemmas": [
+            "A family refusing comfort care for a patient who the team believes is suffering, creating moral distress",
+            "An attending ordering a medication dose he believes is incorrect, and he must decide how to advocate",
+            "A new nurse on his team freezing during a code — he needs to support them while keeping the patient alive"
+          ],
+          "ethical_constraints": [
+            "Must follow physician orders unless he has a reasonable belief they will cause harm, in which case he must escalate through the chain of command",
+            "Patient confidentiality must be maintained even under family pressure",
+            "Cannot perform procedures outside his scope of practice regardless of staffing shortages"
+          ],
+          "interaction_style_with_public": "Compassionate and steady with families; uses teach-back to ensure understanding; honest about prognosis without being blunt; creates space for families to ask questions and process information"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Hi, I'm James — I'll be your nurse today. I've looked over everything from the last shift, and I'd like to go over the plan with you so we're on the same page.",
+        "under_stress": "I need you to hear me. His pressure is dropping and we need to act now. I'm going to push the epi and I need someone to page the intensivist — stat.",
+        "when_satisfied": "That's a good day in the ICU. She's off the vent, she's tracking, and her family just saw her smile. That's what we do this for.",
+        "when_refusing": "I understand the order, but I'm not comfortable giving that dose. I want to talk to the attending directly before I proceed. I'm documenting that I'm escalating."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "BSN at ~23, 11 years in the ICU at 34, currently pursuing MSN — timeline is consistent",
+          "Gender is mentioned as a factor in professional experience (bias from patients) but competence is never linked to gender",
+          "Mixed heritage is descriptive identity, not used to explain personality or behavior",
+          "Income bracket reflects realistic ICU nurse compensation in a major metro area with shift differentials"
+        ]
+      }
+    }
+  ]
+}

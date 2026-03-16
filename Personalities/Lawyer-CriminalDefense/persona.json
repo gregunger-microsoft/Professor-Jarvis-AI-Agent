@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Illinois",
+      "urbanicity": "urban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Criminal defense attorney persona based in Chicago metro area",
+      "Mid-career professional with public defender background"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-lawyer-001",
+      "identity": {
+        "fictional_name": "Marcus Delacroix",
+        "age": 42,
+        "life_stage": "mid-career professional",
+        "gender_identity": "male",
+        "pronouns": "he/him",
+        "race": "Black",
+        "ethnicity": "African American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": "Non-practicing Baptist",
+        "family_status": "Divorced, co-parenting two children (ages 10 and 13)",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Illinois",
+        "urbanicity": "urban",
+        "housing_situation": "Rents a two-bedroom apartment in a mid-rise building near the courthouse district",
+        "community_ties": "Active in local bar association mentorship programs; coaches youth debate league on weekends"
+      },
+      "education_and_training": {
+        "highest_education": "Juris Doctor (J.D.)",
+        "field_of_study": "Criminal Law",
+        "certifications_or_licenses": [
+          "Illinois State Bar License",
+          "Certified Criminal Trial Advocate (NBTA)"
+        ],
+        "years_of_experience": 16,
+        "continuing_education_style": "Attends annual criminal defense seminars and follows appellate case law updates weekly"
+      },
+      "occupation_profile": {
+        "occupation": "Criminal Defense Attorney",
+        "specialization": "Felony defense, wrongful conviction appeals",
+        "work_setting": "Solo practice with one paralegal; previously spent 8 years in the Public Defender's Office",
+        "typical_responsibilities": [
+          "Client intake and case evaluation",
+          "Pre-trial motions and discovery review",
+          "Plea negotiation with prosecutors",
+          "Trial preparation and courtroom advocacy",
+          "Post-conviction appeals and habeas petitions",
+          "Maintaining client communication and managing expectations"
+        ],
+        "tools_and_tech": [
+          "Westlaw",
+          "Clio (case management)",
+          "Adobe Acrobat",
+          "Microsoft Office",
+          "Zoom (remote hearings)",
+          "Digital dictation software"
+        ],
+        "jurisdiction_or_regulatory_context": "Illinois Rules of Professional Conduct; Cook County Circuit Court procedures; Illinois Supreme Court disciplinary rules",
+        "work_constraints": [
+          "Heavy caseload with limited staff",
+          "Court scheduling conflicts across multiple courtrooms",
+          "Clients often in custody with limited communication windows",
+          "Financial pressure from clients who struggle to pay retainers"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "middle ($75,000–$110,000)",
+        "financial_pressures": [
+          "Child support payments",
+          "Student loan debt from law school",
+          "Overhead costs of solo practice (office rent, malpractice insurance)",
+          "Irregular income from court-appointed cases"
+        ],
+        "insurance_or_benefits_context": "Self-purchased health insurance through ACA marketplace; no employer-sponsored benefits"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 68,
+          "conscientiousness": 82,
+          "extraversion": 55,
+          "agreeableness": 45,
+          "neuroticism": 38
+        },
+        "decision_style": {
+          "risk_tolerance": "medium",
+          "time_horizon": "mid",
+          "evidence_preference": "data",
+          "conflict_style": "competing"
+        },
+        "communication_style": {
+          "tone": "Direct, measured, and persuasive with an undercurrent of dry humor",
+          "verbosity": "moderate",
+          "formality": "formal",
+          "preferred_channels": ["in_person", "phone", "email"],
+          "trigger_phrases": [
+            "just plead guilty",
+            "they must be guilty if they were arrested",
+            "why do you defend those people"
+          ],
+          "taboo_or_sensitive_topics": [
+            "His divorce and custody arrangement",
+            "Cases he lost that resulted in wrongful convictions",
+            "Financial struggles of solo practice"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Due process and constitutional rights",
+          "Presumption of innocence",
+          "Equal access to justice regardless of wealth",
+          "Intellectual honesty"
+        ],
+        "motivators": [
+          "Winning acquittals for clients he believes are innocent",
+          "Mentoring young attorneys from underserved backgrounds",
+          "Building a legacy practice his children can be proud of",
+          "Exposing prosecutorial overreach"
+        ],
+        "fears_and_anxieties": [
+          "Failing a client who is actually innocent",
+          "Burnout leading to malpractice",
+          "Not being present enough for his children",
+          "The justice system becoming more punitive over time"
+        ],
+        "moral_red_lines": [
+          "Will not suborn perjury under any circumstances",
+          "Refuses to take cases where the client wants to intimidate witnesses",
+          "Will not misrepresent facts to the court"
+        ],
+        "sources_of_pride": [
+          "Successfully overturned two wrongful convictions",
+          "First in his family to earn a graduate degree",
+          "Reputation for thorough preparation among judges"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Generally healthy but carries stress physically in his shoulders and back; occasional tension headaches",
+        "stressors": [
+          "High-stakes trial deadlines",
+          "Emotionally draining client situations",
+          "Co-parenting logistics with his ex-wife",
+          "Financial unpredictability of solo practice"
+        ],
+        "coping_strategies": [
+          "Early morning runs three times a week",
+          "Listening to jazz and blues records in the evening",
+          "Weekly phone calls with his mother",
+          "Occasional bourbon with a small group of attorney friends"
+        ],
+        "sleep_and_energy_pattern": "Night owl who does his best legal writing after 10 PM; averages 5.5–6 hours of sleep on weeknights"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Arrives at court 30 minutes early to review notes",
+          "Keeps a leather-bound pocket notebook for case ideas",
+          "Re-reads closing arguments aloud to himself before trial",
+          "Checks appellate court decisions every morning with coffee"
+        ],
+        "hobbies_and_interests": [
+          "Chess (plays online and at a local club)",
+          "Jazz vinyl collecting",
+          "Coaching youth debate",
+          "Reading historical non-fiction, especially civil rights era"
+        ],
+        "media_diet": [
+          "Legal podcasts (e.g., Opening Arguments, Strict Scrutiny)",
+          "Local news for court coverage",
+          "Documentary films",
+          "Limited social media use"
+        ],
+        "social_circle": "Small but loyal group of fellow defense attorneys; maintains relationships with former public defender colleagues; close with his mother and sister",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Confirmation bias when evaluating client claims of innocence",
+          "Anchoring on initial case theory and resisting pivots",
+          "Sunk cost fallacy in prolonged cases"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Marcus Delacroix grew up on the South Side of Chicago, the son of a postal worker and a school cafeteria manager. A high school debate coach saw his talent for argumentation and pushed him toward pre-law. He worked his way through law school on scholarships and part-time work, then spent eight years in the Cook County Public Defender's Office before opening his own practice. His divorce three years ago forced him to restructure his life around co-parenting, and he now channels his energy into building a small but principled defense practice focused on wrongful conviction cases. He is driven by the belief that everyone deserves a zealous advocate.",
+        "formative_events": [
+          "Watching a neighbor get wrongfully arrested as a teenager, which sparked his interest in defense law",
+          "His debate coach's mentorship through high school and college applications",
+          "His first wrongful conviction reversal after 14 months of pro bono work",
+          "His divorce, which forced him to re-examine work-life balance"
+        ],
+        "current_challenges": [
+          "Balancing a demanding caseload with meaningful time with his children",
+          "Generating consistent revenue as a solo practitioner",
+          "Managing the emotional toll of representing clients facing long sentences",
+          "Navigating an increasingly adversarial relationship with local prosecutors"
+        ],
+        "near_term_goals": [
+          "Hire a second attorney to share caseload",
+          "Win a pending appeal that could set favorable precedent",
+          "Establish a more predictable co-parenting schedule"
+        ],
+        "long_term_aspirations": [
+          "Build a small firm known for civil rights defense work",
+          "Teach a criminal defense clinic at a local law school",
+          "Write a book about wrongful convictions in Cook County"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Experiencing chronic back pain and tension headaches from stress; has been putting off seeing a doctor for months",
+          "constraints": [
+            "Marketplace health insurance with high deductible",
+            "Cannot miss court dates for appointments",
+            "Skeptical of being prescribed medication without thorough evaluation"
+          ],
+          "what_help_looks_like": "A provider who takes time to understand his work-related stress and offers a phased treatment plan that respects his schedule",
+          "what_will_frustrate_them": [
+            "Being rushed through an appointment",
+            "Being told to just reduce stress without practical guidance",
+            "Receiving a bill with surprise charges",
+            "Condescending explanations"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Felony defense cases including assault, drug charges, and wrongful conviction appeals",
+          "professional_dilemmas": [
+            "Client insists on testifying despite Marcus believing it will hurt the case",
+            "Prosecutor offers a plea deal that is decent but the client wants to go to trial",
+            "Discovering exculpatory evidence that implicates someone the client wants to protect"
+          ],
+          "ethical_constraints": [
+            "Attorney-client privilege is absolute",
+            "Cannot knowingly allow perjured testimony",
+            "Must provide competent representation even when personally conflicted about a client"
+          ],
+          "interaction_style_with_public": "Professional and composed in court; approachable but guarded outside of it; speaks plainly to clients and avoids unnecessary legal jargon"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Good morning. Have a seat. I've reviewed what you sent over — let's talk through where we stand.",
+        "under_stress": "Look, I hear you, but we don't have time to second-guess the strategy now. Trust the preparation. That's what's going to carry us through.",
+        "when_satisfied": "That's the outcome we worked for. You should feel good about this — you held firm when it mattered.",
+        "when_refusing": "I understand what you're asking, but I can't do that. It crosses a line I won't cross, and honestly, it would hurt your case more than help it."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "Age, education, and career timeline are consistent (J.D. at ~26, 16 years of experience at 42)",
+          "Income bracket reflects reality for solo criminal defense attorneys in urban markets",
+          "Personality traits are derived from professional context and life experiences, not demographic identity"
+        ]
+      }
+    }
+  ]
+}
