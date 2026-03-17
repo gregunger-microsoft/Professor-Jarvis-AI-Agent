@@ -1,0 +1,127 @@
+Dictation note — Dr. Marcus Webb — March 14, 2026
+
+Seeing Mr. Thomas E. Ramirez today. Born July 8, 1971. His VA number
+is 10087234 and last four of social is 4419. Appointment at Building 7
+Primary Care, Minneapolis VA. We started around ten fifteen in the
+morning. This was a telehealth video visit.
+
+Used a Spanish interpreter — the patient is more comfortable speaking
+in Spanish for medical discussions.
+
+Vitals pulled from the pre-visit triage (done at the kiosk):
+Blood pressure 156/94, heart rate 91, temp normal at 98.2,
+oxygen was 96 percent, resp rate 20, and he weighs about 224 lbs.
+He reports pain as a 6 — mostly in his right knee.
+
+Chief complaint: Here for ongoing management of type 2 diabetes,
+hypertension, and right knee pain that's been getting worse.
+
+HPI: 54 year old male veteran, service-connected DM2 and HTN.
+Diagnosed with diabetes 2015, on metformin 1000mg BID and recently
+started on glipizide 5mg daily three months ago. A1c was 8.2
+in January, we added the glipizide then. BP has been "all over the
+place" per patient — he's been checking at home and getting readings
+anywhere from 140s to 160s systolic. Currently on amlodipine 10mg
+and lisinopril 20mg daily. For the knee, he's had progressive right
+knee pain over the past 6 months, worse with stairs and prolonged
+walking. He was using naproxen but stopped because of GI upset.
+No trauma, no locking or giving way. He's interested in a cortisone
+shot if that's an option.
+
+Review of systems: Constitutional — no fever, stable weight overall
+but up 5 lbs since last visit. HEENT — no vision changes. CV — denies
+chest pain, palpitations, or edema. Resp — no SOB or cough. GI —
+some heartburn, no nausea/vomiting, no blood in stool. MSK — right
+knee pain as described, no hip pain. Neuro — mild tingling in both
+feet, worse at night. Psych — reports feeling "stressed" about
+finances. Skin — no wounds or lesions, no foot ulcers. Endo — reports
+occasional hypoglycemic episodes in the afternoon, resolved with
+juice.
+
+Medication reconciliation — changes being made today (see plan).
+
+Social history update: He quit smoking about 8 years ago, down from
+a pack a day. Drinks beer "maybe once or twice on weekends." Denies
+any substance use. Currently sedentary — says his knee prevents him
+from exercising.
+
+Mental status: Appropriately dressed. Cooperative during the visit.
+Eye contact was normal. Speech normal rate and tone. He said his mood
+is "stressed" — mostly about money and his knee limiting his ability
+to work. Affect was mildly anxious. Thought process linear and
+goal-directed. No delusions or paranoia. No hallucinations reported.
+Oriented to person, place, time, and situation. Insight is fair —
+he understands his conditions but admits he's not great about diet.
+Judgment fair.
+
+Suicide risk screening: Denies passive SI, active SI, active SI with
+plan, and active SI with intent. Denies HI. Denies self-harm. He does
+endorse some recent life stressors (job instability) and has firearms
+at home but states he has strong family support — wife and two teenage
+kids — and is actively engaged with his church. Overall risk level LOW.
+Veterans Crisis Line already known to him.
+
+Physical exam:
+General: Overweight male appearing stated age, no acute distress, using
+a cane today.
+CV: Tachycardic at 91, regular rhythm, no murmurs or gallops.
+Lungs: Clear bilaterally.
+Abdomen: Soft, non-tender, no organomegaly.
+Right knee: Moderate effusion, tenderness along medial joint line,
+crepitus with ROM, no ligamentous laxity, negative McMurray.
+Feet: No ulcers, dorsalis pedis pulses palpable bilaterally. Decreased
+monofilament sensation bilateral plantar surfaces.
+Neuro: DTRs 2+ and symmetric. Decreased vibration sense bilateral feet.
+
+Labs reviewed from 03/01/2026: A1c 7.8 (improved from 8.2), fasting
+glucose 148, BMP — NA 139, K 4.4, Cr 1.1, GFR 72. Lipids: TC 210,
+LDL 132, HDL 38, TG 200. UA: no proteinuria. Right knee x-ray
+(03/05/2026): moderate medial compartment degenerative changes, no
+fracture.
+
+Assessment and diagnoses:
+1. E11.65 — Type 2 diabetes with hyperglycemia — chronic — service
+   connected yes — A1c improving but still above goal
+2. I10 — Essential hypertension — chronic — SC yes — not controlled,
+   will escalate
+3. M17.11 — Primary osteoarthritis, right knee — active — SC yes —
+   worsening, will pursue injection
+4. E11.42 — Diabetic polyneuropathy — chronic — SC yes — foot exam
+   findings consistent, will refer
+
+Clinical impression: 54 year old veteran with multiple SC conditions.
+DM improving on current regimen but still above goal of <7. HTN
+uncontrolled despite dual therapy. Right knee OA worsening, candidate
+for intra-articular injection. New finding of diabetic peripheral
+neuropathy on exam.
+
+Plan by problem:
+1. DM2: Continue metformin 1000 BID and glipizide 5mg daily. Add
+   SGLT2 inhibitor — empagliflozin 10mg daily (also benefits for
+   cardio-renal protection). Nutrition consult for diabetic diet.
+   Recheck A1c in 3 months.
+2. HTN: Add chlorthalidone 12.5mg daily as third agent. Home BP
+   monitoring log requested. Target <130/80.
+3. Right knee OA: Triamcinolone 40mg intra-articular injection today
+   (done — no complications). Refer ortho if no relief in 6 weeks.
+   Discontinue naproxen given GI complaints — start topical diclofenac
+   gel PRN. PT referral for quad strengthening.
+4. Diabetic neuropathy: Refer podiatry for diabetic foot care. Start
+   gabapentin 300mg qHS, titrate as tolerated. Counseling on daily
+   foot checks.
+
+Follow up in 6 weeks to reassess BP on new regimen and knee response
+to injection. Return sooner for any hypo episodes, worsening knee,
+or new foot concerns.
+
+Referrals: Nutrition, Physical Therapy, Podiatry, Ortho (conditional).
+Orders placed: Labs — A1c and BMP in 3 months, lipid panel. New meds:
+empagliflozin 10mg daily, chlorthalidone 12.5mg daily, gabapentin
+300mg qHS, topical diclofenac gel.
+
+Signed electronically:
+Marcus J. Webb, MD
+National Provider Identifier: 9876543210
+March 14, 2026 at 1130
+
+Note: Completed

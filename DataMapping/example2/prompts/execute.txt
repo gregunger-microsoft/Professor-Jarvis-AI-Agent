@@ -1,0 +1,5 @@
+map the source data to the template using the schema.json and the DataMappingSpecification.md
+
+Output fully hydrated document in a sub-folder named: output
+
+Also generate a full data mapping report just like this example: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example1\output

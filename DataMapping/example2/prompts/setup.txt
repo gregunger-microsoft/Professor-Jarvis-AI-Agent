@@ -1,0 +1,16 @@
+using C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example1 as a guide,
+
+I want to create a new example here: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2
+
+Using this form: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2\forms\CPRS_PCP_ProgressNote_Template.docx
+
+Create a schema.json file in folder: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2\artifacts
+
+Create an DataMappingSpecification.md file in folder: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2\artifacts
+using this as a guide: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example1\DataMappingSpecification.md
+
+In folder: C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2\source-data
+Create test source data that would allow 80% of the final template to be hydrated with 20% not usable.
+
+And then create a README.md file in C:\tempGregProj\ProfessorJarvisAIAgent\DataMapping\example2 fully documented this example 2 use case
+
